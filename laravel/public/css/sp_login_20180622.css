@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+h1.loginmessage { background-color:#fff; border-radius:6px; padding:10px; text-align:center; margin-bottom:20px; font-size:20px; font-weight:bold; color:#C73338;}
+.bnrarea { position: relative;}
+.bnrarea a.ad, .bnrarea a.ad img { display:none;}
+.loginbox {width:100%;background-color:#fff; padding:0;}
+.loginbox dt { font-size:16px;}
+.loginbox dt span{ color:#f45934; font-size:16px;}
+.loginbox form { margin:10px 0;}
+.loginbox input { border:1px solid #999; width:100%; border-radius:6px; padding:5px; margin:10px 0;}
+.loginbox .btn_login { width:62%;background-color: #f45934; border-width:0 0 5px 0!Important; border-color:#c73338!Important; border-style:solid!Important;color: #fff;font-weight: bold;text-align: center;text-decoration: none; margin:20px 19% 20px!Important;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.loginbox .help { text-align:center; margin:0 auto 10px;}
+.loginbox .help a, .toregi a {color: #066b74; display:inline-block;}
+.loginbox .help span, .toregi span { color:#f45934;}
+.loginbox a .btn_fblogin { background-color:#305097; border-bottom:5px solid #112A6B; width:340px;color: #fff;font-weight: bold;text-align: center;text-decoration: none; margin:20px 40px; border-radius:6px; padding:5px;}
+.toregi {text-align:center;}
+.error, .error span { color: #C73338;}
+.error, .error_txt {margin:10px 0;}
+
+.forguest strong, .forguest strong span { color:#c73338; font-weight:bold;}
+.forguest p { margin-bottom:5px;} 
+.forguest .bold { font-weight:bold;}
+.forguest p span {color:#c73338; font-size:12px;}
+.forguest .btn_y { width:77%!Important; margin:0 11% 20px!Important;}
+
+/*------------------------------------------------for app*/
+.applogin {min-height: calc(100vh - 220px);}
+.applogin .note { line-height:1.8;min-height: calc(100vh - 180px);}
+.applogin .note a { display:inline;}
+header.app {background-color: #d3f078;color: #ffffff;font-size: 12px;border-top: 5px solid #f45934;margin: 0; padding:10px 0 5px; text-align:center;}
+header.app img.logo { width:150px; height:auto;}

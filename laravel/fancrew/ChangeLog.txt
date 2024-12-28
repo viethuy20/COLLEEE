@@ -1,0 +1,6 @@
+3.2.0
+	* class/ROI/SimpleCrypt.php を追加。mcrypt を使わない暗号処理。
+3.1.0
+	* test/all-test.php を追加。PHPUnit を使ったテストを Eclipse 上で簡単に実行できるようにした。
+	* スマートフォン対応。
+	* class/Encoder.php を class/Crypt.php に名前変更。decrypt 関連メソッドを追加。

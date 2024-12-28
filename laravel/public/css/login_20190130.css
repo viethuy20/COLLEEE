@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.loginmessage { background-color:#fff; border-radius:6px; padding:10px; text-align:center; margin-bottom:20px; font-size:20px; font-weight:bold; color:#C73338;}
+.bnrarea { position: relative;}
+.loginbox { position: absolute; width:450px; height:480px; padding:15px; background-color:#fff; border-radius:8px; top:20px; right:20px; float:right; }
+.loginbox dt { font-size:16px; font-weight:bold;}
+.loginbox dt span{ color:#f45934; font-size:16px;}
+.loginbox dd { border-bottom:1px solid #92F6AC; margin-bottom:20px;}
+.loginbox dd input[type="text"], .loginbox dd input[type="password"] { border:1px solid #999; width:410px; border-radius:6px; padding:5px; margin:10px 0;}
+.btn_login { width:340px!Important;color: #fff;font-weight: bold;margin:20px 40px 20px!Important; padding:5px 0;}
+.loginbox dd .help { text-align:center; margin:0 auto 20px;}
+.loginbox dd .help a, .loginbox dd .help span, .toregi a, .toregi span {color: #f45934;}
+.loginbox dd .help a:hover, .toregi a:hover { text-decoration:underline;}
+.loginbox dd a .btn_fblogin { background-color:#305097; border-bottom:5px solid #112A6B; width:340px;color: #fff;font-weight: bold;text-align: center;text-decoration: none; margin:20px 40px; border-radius:6px; padding:5px;}
+.toregi {text-align:right;}
+.error, .error span { color: #C73338;}
+.error {margin:10px 0;}
+.error_txt { margin:20px 0 0;}
+.bnr_login { width:1080px; height:660px; margin-bottom:15px;}
+.btn_y { margin:10px auto; padding:10px 0; width:300px; font-weight:bold;}
+
+/*------------------------------------------------------------------for app*/
+header.app {background-color: #d3f078;color: #ffffff;font-size: 12px;border-top: 5px solid #f45934;margin: 0; padding:15px 0; text-align:center; width:100%}
+header.app img.logo { width:220px; height:auto;}
+.applogin h1.loginmessage {font-size:28px; margin-top:40px;}
+.applogin .loginbox { position:static; text-align:center; float:none; width:840px; padding:15px; box-sizing:border-box; top:0; right:0; margin:0 auto;}
+.applogin form input {width: 80%; margin-bottom: 30px; border-radius:4px;-webkit-appearance: none;-moz-appearance: none; appearance: none; padding:10px; font-size:18px;}
+.applogin .loginbox .help { margin-bottom:1.5em;}
+.applogin .loginbox .help span { color:#f45934; font-size:20px;}
+.applogin .loginbox .help a {color: #066b74; font-size:20px;}
+.applogin .error { font-size:20px;}
+footer.app {background-color: #f45934;color: #ffffff;font-size: 12px;margin: 0; padding:10px 0 5px; text-align:center; width:100%;position: fixed; bottom:0;}
+footer.app .cright { background-color:transparent; font-size:20px;}
+.applogin .note { line-height:1.8; width:80%; text-align:center; font-size:20px; margin:0 auto;}
+.applogin .note a.heading { font-size:20px; font-weight:bold;}
+.applogin {margin-bottom:20px;}

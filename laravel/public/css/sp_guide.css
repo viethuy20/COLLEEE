@@ -1,0 +1,213 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents__box {
+  padding: 20px;
+  width: 100%;
+}
+
+.contents__ttl {
+  font-size: 2.4rem;
+}
+
+.guide__nav ul li {
+  width: 100%;
+}
+.guide__nav ul li:nth-child(n+2) {
+  margin-top: 10px;
+}
+.guide__nav ul li a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.guide__nav ul li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+.guide__step {
+  margin-top: 20px;
+}
+.guide__step ul li {
+  width: 100%;
+}
+.guide__step ul li:nth-child(n+2) {
+  margin-top: 40px;
+}
+.guide__step ul li .num {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.guide__step ul li .num span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.guide__step ul li .image {
+  margin-top: 5px;
+}
+
+.guide__example {
+  margin-top: 20px;
+}
+.guide__example ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.guide__example ul li {
+  width: calc((100% - 10px) / 3);
+}
+.guide__example ul li:nth-child(n+4) {
+  margin-top: 5px;
+}
+
+.guide__schedule__content ul li {
+  margin-top: 20px;
+}
+.guide__schedule__content ul li .ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.guide__schedule__content ul li .ttl span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.guide__howto {
+  margin-top: 20px;
+}
+.guide__howto > ul > li {
+  width: 100%;
+}
+.guide__howto > ul > li:nth-child(n+2) {
+  margin-top: 40px;
+}
+.guide__howto > ul > li .ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-indent: -25px;
+  padding-left: 25px;
+}
+.guide__howto > ul > li .ttl span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: 0;
+}
+.guide__howto > ul > li .txt {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.guide__howto > ul > li .image {
+  margin-top: 10px;
+}
+.guide__howto > ul > li .list {
+  margin-top: 10px;
+}
+.guide__howto > ul > li .list > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.guide__howto > ul > li .list > ul li {
+  width: calc(calc(100% - 10px) / 3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.guide__howto > ul > li .list > ul li:nth-child(n+4) {
+  margin-top: 5px;
+}
+
+/*--------------------------------------------------------------------
+  不正行為とは
+--------------------------------------------------------------------*/
+.illegal__list {
+  margin-top: 20px;
+}
+.illegal__list ul li {
+  border: 2px solid #f39800;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 20px;
+}
+.illegal__list ul li .ttl {
+  color: #f39800;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.illegal__list ul li .txt {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 15px;
+}
+.illegal__list ul li .txt_small {
+  font-size: 1.2rem;
+}
+.illegal__list ul li .image {
+  margin-top: 20px;
+}
+.illegal__list ul li .image img {
+  width: 66.6666666667%;
+}
+.illegal__textbox {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.illegal__info {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 40px;
+}
+.illegal__image {
+  width: 118px;
+  margin: -10px auto 0;
+}
+
+.marker {
+  background: linear-gradient(transparent 50%, #fff82c 0%);
+}
+
+a.textlink {
+  color: #fb8c00;
+}

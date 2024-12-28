@@ -1,0 +1,90 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.login__form {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 20px 5%;
+  width: 100%;
+}
+.login__form form input[type=text],
+.login__form form input[type=password] {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.login__form__privacy {
+  margin-top: 20px;
+}
+.login__form__privacy p {
+  font-size: 1.5rem;
+}
+.login__form__btn {
+  margin: 20px auto 0;
+}
+.login__form__btn button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.login__form__btn button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.login__form__btn_line {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login__form__btn_line img{
+height: 48px;
+}
+
+.login__form__btn_line img:hover{
+  opacity: 0.8;
+}
+
+a.textlink {
+  color: #fb8c00;
+}
+a.textlink i {
+  margin: 0 0.25em;
+  width: 1.2em;
+}
+a.textlink i img {
+  width: 1.2em;
+}
+
+a.external {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+a.external::after {
+  content: url(/images/inquiries/ico_external.svg);
+  display: inline-block;
+  line-height: 0;
+  margin: 0 3px;
+  position: relative;
+  top: 1px;
+  width: 13px;
+  height: 13px;
+}
+a.external:hover {
+  text-decoration: none;
+}

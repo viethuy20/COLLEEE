@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.main_contents h1.ttl_review {    background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 8px;font-size: 21px;border: 0;padding: 10px;color: #f45934;margin: 15px;}
+
+/*--------------------------------------------------------------user review list*/
+#review_list .reference, #post .reference {color:#999;margin: 0 !important;text-align: left;vertical-align: middle;display:block;font-size:14px;}
+#review_list li .reference ul.stars, #post .reference ul.stars {margin: 0;padding: 0;width: 80px; float:right;}
+#review_list li .reference ul.stars li:last-child, #post .reference ul.stars li:last-child  {width: 20px !important;}
+#review_list li .reference ul.stars li, #post .reference ul.stars li {display: inline-block;margin: 0;padding: 0;border:none;width:14px;}
+#review_list li .reference ul.stars li img, #post .reference ul.stars li img {height: auto;vertical-align: top;width: 14px!Important;}
+#review_list .u_text, #review .txt_all, #post .txt_all {font-size:14px; line-height:1.4;}
+#review_list .timestamp, #post .timestamp { font-size:12px; color:#999; margin-bottom:5px;}
+
+#review_list li .reference ul.stars, #post .reference ul.stars {margin: 0;padding: 0;width: 80px; float:right; border-top:0; font-size:0;}
+#review_list li .reference ul.stars li:last-child, #post .reference ul.stars li:last-child  {margin-right:0;}
+#review_list li .reference ul.stars li, #post .reference ul.stars li {display: inline-block;margin: 0;padding: 0;border:none;width:14px; margin-right:1px;}
+#review_list li .reference ul.stars li img, #post .reference ul.stars li img {height: auto;vertical-align: top;width: 14px!Important;}
+#review_list .u_text, #review .txt_all, #post .txt_all {font-size:14px; line-height:1.4; margin-bottom:5px;}
+#review_list .timestamp, #post .timestamp {font-size:13px; color:#999; margin-bottom:5px;}
+
+/*#review_list .accordion_list {border-bottom: 1px dotted #ccc;padding:10px 10px !important;vertical-align: middle;/*background-color:#FFFFCC;font-size:12px;}
+#review_list .accordion_list .timestamp, #review .uReview .timestamp {font-size:10px;color:#666;}
+.adlist .adblock #review_list li.reference ul.stars li:last-child, {width:20px!Important;}*/
+#review_list .u_text a { text-decoration:none!Important;color:#066b74; display:inline;}
+#review_list ul {}/*もっと見たときに余計なborderが増えるので一旦消します*/
+#review_list li.eachreview, #useful .uReview li.eachreview  {display:block;border-bottom:1px dotted #89909f; padding:5px 0 10px; margin-bottom:10px;}
+#review_list li.eachreview a.to_tameru {color:#066b74; font-weight:bold; display: inline;}
+#review_list li .reference a {display:inline;}
+#review_list .u_text { width:100%; clear:both; padding:10px 0 0;}
+#review_list p.pushed {background-color: #f45934;border-bottom: 4px solid #c73338;border-radius: 5px;color: #fff;font-size: 13px;margin:0;padding: 10px 0;text-align: center;width:39%; float:left; cursor:pointer;}
+#review_list p.pushed span {color:#fff;}
+#review_list p.was {background-color: #fff;border: 1px solid #f45934;border-radius: 5px;color: #f45934;font-size: 13px;margin:0;padding: 10px 0;text-align: center;width:39%; float:left; box-sizing:border-box;}
+#review_list p.was span {color: #f45934;}
+#review_list p.howmany { float:right; font-size:10px;text-align: center; color:#666; padding:13px 10px; background-color:#ffc; border-radius:4px; width:190px;}
+#review_list p.howmany { font-size:13px;text-align:right; color:#666; padding:10px 0; background-color:#fff; width:calc(100% - 40%); display:inline-block;}
+#review_list p.howmany span, .u_reeview p.howmany span {font-size:16px;color:#f45934; font-weight:bold; vertical-align:middle; margin-right:3px;}
+
+.reviewparts .zero {}
+.reviewparts .zero .nothing {position: relative;display: inline-block;padding: 10px 15px;width: auto;text-align: center;background: #ffda37;font-size:18px;font-weight:bold;z-index: 0; width:100%;}
+.reviewparts .zero .nothing:after {content: "";position: absolute;bottom: -10px; left: 50%;margin-left: -10px;display: block;width: 0px;height: 0px;border-style: solid;border-width: 10px 10px 0 10px;border-color: #ffda37 transparent transparent transparent;}
+.reviewparts .zero p { width:calc(100% - 34%); font-size:14px; margin-top:20px;}
+.reviewparts .zero p strong {font-size:14px;}
+.reviewparts .zero p span {color:#f45934; font-weight:bold;}
+.reviewparts .zero img { width:90px; height:auto; float:right; margin:20px 0;}
+.reviewparts .zero p.more { clear:both; margin:15px 19%;}
+.reviewparts .zero p.more a {color:#fff;}
+/*--------------------------------------------------------------------------------index and other list*/
+
+h1.ttl_review {margin-bottom: 35px;}
+
+/*---------------------------------------around tameru review*/
+.reviewparts .contentsbox {}
+.main_contents h1.ttl_review {background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 8px;font-size: 21px;border: 0;padding: 10px;color: #f45934;margin: 15px;}
+
+#post { margin-bottom:10px; background-color:#fefadd; border:1px solid #e8eaef; border-radius:8px;}
+#post h2 {position: relative;height: 34px;line-height: 34px;padding: 0 .5em;background-color: #066b74;left:-10px;margin-top:10px;color:#fff; margin-bottom:15px; border-left:0;}
+#post h2::before, #post h2::after {content: '';position: absolute;}
+#post h2::before {top: 100%;left: 0;border-width: 0 10px 10px 0;border-style: solid;border-color: transparent;border-right-color: #333;}
+#post h2::after {top: 0;right: 0;z-index: 2;border-width: 17px 17px;border-style: solid;border-color: transparent;border-right-color: #fefadd;}
+#post h2 span { color:#ffdb37;}
+#post h3 {position: relative;height: 34px;line-height: 34px;padding: 0 .5em;background-color: #c73338;left:-10px;margin-top:10px;color:#fff; margin-bottom:15px;}
+#post h3::before, #post h3::after {content: '';position: absolute;}
+#post h3::before {top: 100%;left: 0;border-width: 0 10px 10px 0;border-style: solid;border-color: transparent;border-right-color: #333;}
+#post h3::after {top: 0;right: 0;z-index: 2;border-width: 17px 17px;border-style: solid;border-color: transparent;border-right-color: #fefadd;}
+#post h3 span { color:#ffdb37;}
+#post .conf { padding:10px;}
+#post .conf .uname {float: left; color:#89909f; font-size:11px;}
+.errand { margin:10px 0; text-align:center; color:#262626; font-size:16px; font-weight:bold;}
+#post .p_send {background-color: #f45934; border-width:0 0 4px 0; border-style:solid; border-color:#c73338;border-radius: 5px;color: #fff;font-size: 15px;font-weight: bold;margin: 20px 19%;padding: 10px 0;text-align: center;width:62%; cursor:pointer-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+#post .p_cancel {background-color: #b3b3b3;border-width:0 0 4px 0; border-style:solid;border-color:#808080;border-radius: 5px;color: #fff;font-size: 15px;font-weight: bold;margin: 20px 19% 15px;padding: 10px 0;text-align: center;text-shadow: 0 1px 1px #999;width:62%;}
+
+.finished { margin:10px 0; text-align:center; color:#c73338; font-size:21px; font-weight:bold;}
+.putbnr { width:82%; margin:0 auto;}
+.putbnr img { width:100%; height:auto;}
+.toad {background-color: #f45934;border-bottom: 4px solid #c73338;border-radius: 5px;color: #fff;font-size: 15px;font-weight: bold;margin: 20px auto;padding: 10px 0;text-align: center;width:62%; cursor:pointer;}
+.toad a {color: #fff;font-size: 15px;font-weight: bold;}
+
+.va_m { vertical-align:middle;}
+
+.u_reeview p.delete {background-color: #f2f2f2;color: #666;font-size: 14px;padding: 10px 0;text-align: center; margin-top:10px;}
+.u_reeview p.delete .icon-delete {color: #f45934 !important;font-size: 20px;margin-right: .5em;}
+.u_reeview .more, #useful .more {background-color: #f45934;font-size: 14px;padding: 10px 0;text-align: center; cursor:pointer; color:#fff; width:62%;border-radius: 5px; margin:0 19%;border-bottom: 4px solid #c73338;}
+.u_reeview .more p, #useful .more p { display:none;}

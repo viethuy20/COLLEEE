@@ -1,0 +1,135 @@
+  .sp_programs__ttl {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .sp_programs__txt {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+  .sp_programs__list li a {
+    margin-top: 3px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sp_programs__list li:nth-of-type(n+6) {
+    display: none;
+  }
+  .sp_programs__list__ttl {
+    color: #f39800;
+    font-weight: bold;
+    font-size: 1.8rem;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .sp_programs__list__thumb {
+    width: 37%;
+  }
+  .sp_programs__list__txt {
+    width: 63%;
+    padding-left: 10px;
+    font-size: 1.3rem;
+  }
+  .sp_programs__list__post {
+    width: 63%;
+    padding-left: 10px;
+    color: #f39800;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .sp_programs__list__post__info {
+    font-size: 1.1rem;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sp_programs__list__post__info .clip {
+    color: #242424;
+  }
+  .sp_programs__list__post__info .clip img {
+    width: 1.3em;
+  }
+  .sp_programs__list__post__info .clip span {
+    color: #f39800;
+  }
+  .sp_programs__list__post__info .date {
+    color: #666666;
+  }
+  .sp_programs__list__more {
+    display: block;
+    margin: 20px 0 10px;
+    position: relative;
+    color: #f39800;
+    background-color: #ffffff;
+    border: 1px solid #f39800;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+  }
+  .sp_programs__list__more::before, .sp_programs__list__more::after {
+    content: "";
+    border: 0;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+  }
+  .sp_programs__list__more::before {
+    border-bottom: 2px solid #f39800;
+    right: 13px;
+    top: 3px;
+  }
+  .sp_programs__list__more::after {
+    border-right: 2px solid #f39800;
+    right: 19px;
+    top: 11px;
+  }
+  .sp_programs__list__trigger {
+    display: none;
+  }
+  .sp_programs__list__trigger:checked ~ li {
+    display: flex;
+  }
+  .sp_programs__list__trigger:checked ~ .sp_programs__list__more {
+    display: none;
+  }
+  .sp_programs__click__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+  .sp_programs__click__list li {
+    width: 24%;
+    background: #ffffff;
+    border-radius: 3px;
+    position: relative;
+    padding: 13px 10px 0;
+  }
+  .sp_programs__click__list li:nth-of-type(n+5) {
+    display: none;
+  }
+  .sp_programs__click__list__pop {
+    background-color: #eb332f;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 3px 3px 0 0;
+    position: absolute;
+    width: 100%;
+    top: -25px;
+    left: 0;
+  }
+  .sp_programs__click__list__point {
+    color: #eb332f;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  /*# sourceMappingURL=sp_programs.css.map */

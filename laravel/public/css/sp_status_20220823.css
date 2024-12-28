@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.member_rank__txt {
+  border: 1px solid #b9b9b9;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+  margin-top: 20px;
+}
+.member_rank__txt span {
+  color: #eb332f;
+  font-weight: 700;
+}
+.member_rank__list ul li {
+  margin-top: 20px;
+  width: 100%;
+}
+.member_rank__list ul li .txt {
+  color: #fb8c00;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.member_rank__tb table {
+  border: 1px solid #b9b9b9;
+  margin-top: 10px;
+  width: 100%;
+}
+.member_rank__tb table tr {
+  border-bottom: 1px solid #b9b9b9;
+}
+.member_rank__tb table tr:last-child {
+  border-bottom: none;
+}
+.member_rank__tb table tr th {
+  background-color: #f2f2f2;
+  border-right: 1px solid #b9b9b9;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+  width: 5em;
+}
+.member_rank__tb table tr td {
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 10px;
+}
+.member_rank__tb table tr td.image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.member_rank__tb table tr td.image img {
+  display: block;
+  width: 28px;
+  height: auto;
+}
+.member_rank__tb table tr td dt {
+  display: block;
+  background-color: #f6edd9;
+  font-size: 1.3rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 0.5em;
+  width: 4em;
+}
+.member_rank__tb table tr td dt:nth-child(n+2) {
+  margin-top: 1.5em;
+}
+.member_rank__tb table tr td dd {
+  font-size: 1.3rem;
+}
+.member_rank__tb table tr td ul li span {
+  color: #eb332f;
+}
+
+.ico_ttl {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+}
+.ico_ttl i {
+  display: inline-block;
+  margin-right: 0.25em;
+}
+.ico_ttl i img {
+  width: 20px;
+}
+
+a.textlink {
+  color: #fb8c00;
+}
+/*# sourceMappingURL=member_rank.css.map */

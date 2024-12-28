@@ -1,0 +1,16 @@
+.contents__wrap .contents {
+    width: 100% !important;
+    max-width: initial !important;
+}
+
+.header__search {
+    display: none;
+}
+
+.header__user {
+    display: none;
+}
+
+.header__exchange {
+    display: none;
+}

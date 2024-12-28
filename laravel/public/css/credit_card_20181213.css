@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1.ttl_card {background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 6px;font-size: 32px; color: #f45934;font-weight: bold;padding: 10px; margin: 0 0 20px;}
+
+.refine h2 {font-size: 20px; font-weight: bold;border-left: 5px solid #f45934; padding: 0 5px; margin: 0 0 20px 0;}
+.refine .contentsbox { background-color: #fefadd; color: #333; border-radius: 8px; margin-bottom: 35px; padding: 20px;}
+.refine dl { margin-bottom:10px; width:100%; border-bottom:1px solid #92f6ac;}
+.refine dt { font-size:14px; font-weight:bold; padding:5px 0; display:inline-block; width:11em;}
+.refine dd { font-size:14px; padding:5px 10px 5px 0; display:inline-block;}
+.refine .btn_refine {border-radius: 4px;color: #fff;font-size: 14px; font-weight:bold; padding: 10px 0;width: 250px;margin: 10px 395px 0;box-sizing: border-box;cursor: pointer;}
+.checkbox_card{display: none;}
+.checkbox_parts{ padding-left: 25px; position:relative; margin-right: 20px;}
+.checkbox_parts::before{content: ""; display: block; position: absolute; top: 0; left: 0; width: 15px; height: 15px; border: 1px solid #ccc; background-color:#fff;
+}
+.checkbox_card:checked + .checkbox_parts::after{ content: ""; display: block; position: absolute; top: -2px; left: 5px; width: 6px; height: 12px; transform: rotate(40deg);-webkit-transform:rotate(40deg); border-bottom: 2px solid #333; border-right: 2px solid #333;}
+
+/*タブというかボタンのお試し - 4つ並び → 3つ並びに…*/
+.tab_card_4 {}
+.tab_card_4 ul { font-size:0; width:100%; display: block; margin-bottom:15px;}
+.tab_card_4 li { border:1px solid #f45934; border-radius:4px; background-color:#fff; color:#f45934; font-size:12px; padding:10px 0; width:246px; margin-right:6px; box-sizing:border-box; display:inline-block; text-align:center;}
+.tab_card_4 li.on {background-color:#f45934; color:#fff;border-bottom:1px solid #f45934;}
+.tab_card_4 li p { color:#f45934; font-size:14px;}
+.tab_card_4 li:last-child { margin-right:0;}
+.tab_card_4 li a { color:#ff; font-size:14px; font-weight:bold;}
+.tab_card_4 li.on p { color:#fff; font-size:14px; font-weight:bold;}
+
+.card_list h2 { font-size: 20px;color: #066b74; margin:0 0 5px 0; padding:0; border:0;}
+.card_list .ends {font-size: 30px;font-weight: bold; color: #c73338;text-align: center; margin-bottom:20px;}
+.card_list .contentsbox { margin-bottom:0;}
+.card_list .lnk_return_top { text-align:right; margin:0 0 20px; padding:10px;}
+.card_list .detailbox h3 {margin: 10px 0;font-size: 18px;}
+.card_list .detailbox .adjustment01 { display:table;}
+.card_list .detailbox .bnrbox { width: 150px; display: table-cell;max-height:120px; overflow:hidden; padding-right:10px;vertical-align: top;}
+.card_list .detailbox .rightside {width:430px; display:table-cell;vertical-align: top; padding-right:10px;}
+.card_list .detailbox .btn_detail {display:table-cell; width:120px;}
+.card_list .detailbox .btn_detail p{margin: 0 0 10px 0;border-radius: 8px;vertical-align: middle;font-size: 14px;font-weight:bold;}
+.card_list .detailbox .btn_detail p a{padding: 15px 0;text-align: center;vertical-align: middle;font-size: 14px;color:#fff;font-weight:bold; display:block;}
+
+.card_list .detailbox a .btn_detail {  font-size:18px;}
+.card_list .detailbox .bnrbox img { width:150px; height:auto;}
+.card_list .detailbox .rightside p { display:inline-block;}
+.card_list .detailbox .rightside p.acquisition { width:100%;}
+.card_list .detailbox .rightside p span { font-weight:bold;}
+.card_list .detailbox .rightside p:nth-child(2) { margin-right:10px;}
+.card_list .detailbox .rightside p span { font-weight:bold;}
+.card_list .detailbox .rightside .digitbox {text-align:right;}
+.card_list .detailbox .rightside .digitbox span {display: inline-block;font-size: 30px; font-weight: bold;color: #f45934;}
+.card_list .description { padding-bottom:10px;}
+
+.card_list .spec {display: -webkit-flex; /* Safari */display: flex; width:100%; margin-bottom:15px;-webkit-flex-wrap: nowrap; /* Safari */flex-wrap:nowrap;}
+.card_list .spec dl {-webkit-flex-direction: column; /* Safari */flex-direction:column; min-width:calc(100% / 7);}
+.card_list .spec dl:first-child { border-left:1px solid #333;}
+.card_list .spec dl { border-top:1px solid #333; border-bottom:1px solid #333; border-right:1px solid #333; background-color:#fff;}
+.card_list .spec dl:last-child dt, .spec dl:last-child dd { border-right:0;}
+.card_list .spec dt {background-color:#ffdb37;text-align:center; border-bottom:1px solid #333; padding:5px 0; font-size:13px;}
+.card_list .spec dd { padding:5px; font-size:13px;}
+.card_list .spec dd li { font-size:13px;}
+
+.card_list .detailbox .to_spec {display:none;}
+.card_list .btn_retry {color: #fff; width: 250px; font-size: 14px; font-weight: bold; margin: 0 auto; padding:10px 0;}
+
+.recommend h3 { margin:10px 0 5px; font-size:18px;}
+.recommend dl {}
+.recommend dt { width:520px; float:left; padding:5px 0 5px 5px;}
+.recommend dd {border-bottom: 1px solid #92f6ac; padding:5px 5px 0; text-align:right;}
+.recommend dd span {    font-size: 16px;font-weight: bold; color: #f45934;}
+.heading a { color: #066b74; font-weight: bold;}
+
+.fromstaff ul { margin-bottom:20px;}
+.fromstaff li {background-color: #fefadd; border-radius: 8px; width: 100%; padding: 20px; margin-bottom: 10px;}
+.fromstaff li a .heading { margin-bottom:5px;}
+.fromstaff li a dt {float: left;width: 120px; max-height: 120px;}
+.fromstaff li a dt img { width: 120px; height: auto;}
+.fromstaff li a dd { float: right; font-size: 12px; width: calc(100% - 130px);}
+.fromstaff li a dd.point { text-align:right;}
+.fromstaff li a dd.point span {font-size: 20px; font-weight: bold; color: #f45934;}
+.fromstaff li a dd.point .unit { display: inline-block; font-weight: normal; font-size: 12px; margin-left: 5px;}
+
+.popularrecipe a li {border-bottom: 1px solid #92f6ac; padding-bottom:10px; margin-bottom:10px;}
+.popularrecipe a .img_recipe { width:120px; height:120px; overflow:hidden; float:left; margin-right:10px;}
+.popularrecipe a .img_recipe img { width:120px; height:auto;}
+.popularrecipe a .tag {background-color: #f45934;color: #fff;display: inline-block;font-size: 12px;margin: 3px;padding: 2px 5px;}
+.popularrecipe a .heading { font-weight:bold; height:70px; overflow:hidden;}
+.popularrecipe a .date {color: #979797;font-size: 12px;text-align: right;}
+.popularrecipe a .clipped { text-align:right; width:100%; font-size:12px;}
+.popularrecipe a .clipped span {color:#f45934;}
+.popularrecipe a li .adbox { width:260px; max-height:142px; overflow:hidden;}
+
+.detailbox .incommon { border-top: 1px solid #92f6ac;border-bottom: 1px solid #92f6ac;padding:0 0 15px 0;margin:10px 0 15px;}
+.detailbox .incommon h3 {}
+.detailbox .incommon dt { width:9em; display:inline-block; margin-bottom:5px;}
+.detailbox .incommon dt::after { content:":"; margin-left:.5em;}
+.detailbox .incommon dd { width:calc(100% - 9.5em); display:inline-block; margin-bottom:5px;}
+
+.ico_status_a, .ico_status_j, .ico_status_t, .ico_status_r { border-radius:50%; color:#fff; text-align:center; font-size:14px; padding:1px 4px; display:inline-block; width:24px; margin-right:5px; font-weight:bold; box-sizing:border-box;}
+.ico_status_a { background-color:#21409C; color: #fff;}
+.ico_status_j { background-color:#fff; color: #CC0000; border:2px solid #c00; padding:0 1px 0 0!Important; font-size:13px;}
+.ico_status_t { background-color:#FFF20E; color:#004098;}
+.ico_status_r { background-color:#BF0000;color: #fff;}
+
+.detailbox .info_camp {border-bottom: 1px solid #92f6ac;padding:0 0 10px 0;margin:10px 0;}
+
+/*--------------------------------------newreview*/
+.newreview .contentsbox {width: 300px;background-color: #fefadd;color: #333;border-radius: 8px;margin-bottom: 35px;padding: 20px;box-sizing: border-box;}
+.newreview ul { line-height:0}
+.newreview li .heading a { font-weight:bold; font-size:14px; color:#066b74;}
+.newreview li .uname  { font-weight:bold; font-size:12px; color:#89909f;}
+.newreview li { display: inline-block; clear:both; width:100%; padding-bottom:10px; margin-bottom:10px;border-bottom:1px solid #92f6ac;}
+.newreview li .uname { float:left;}
+.newreview li .evaluation { width:80px; float:right;}
+.newreview li .evaluation ul.stars {margin: 0;padding: 0;width: 80px; font-size:0; border-top:0;}
+.newreview li .evaluation ul.stars li {display: inline-block;margin: 0 2px 0 0;padding: 0;border:none;width:14px; font-size:14px;}
+.newreview li .evaluation ul.stars li img {height: auto;vertical-align: top;width: 14px;}
+.newreview li .txt_ureview {clear:both; font-size:14px;padding: 0 0 5px;}
+.newreview li .txt_ureview a { text-decoration:underline; color:#066b74; display:inline;}
+.newreview li .timestamp {font-size: 12px;color: #999;margin-bottom: 5px;}

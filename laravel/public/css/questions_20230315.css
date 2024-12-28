@@ -1,0 +1,731 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------
+  デイリーアンケート
+--------------------------------------------------------------------*/
+.questions__que {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.questions__que__img {
+  width: 50px;
+}
+.questions__que__img img {
+  width: 100%;
+}
+.questions__que__txt {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-left: 1em;
+}
+
+/*--------------------------------------------------------------------
+  デイリーアンケートの結果
+--------------------------------------------------------------------*/
+.result__list {
+  margin-top: 10px;
+}
+.result__list ul li {
+  border-top: 1px solid #dedede;
+}
+.result__list ul li:last-child {
+  border-bottom: 1px solid #dedede;
+}
+.result__list ul li a {
+  display: block;
+  padding: 15px 0;
+  transition: 0.2s ease-in-out;
+}
+.result__list ul li a .data {
+  color: #b9b9b9;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.result__list ul li a .ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.result__list ul li a .responses {
+  font-size: 1.4rem;
+  text-align: left;
+}
+.result__list ul li a:hover {
+  background-color: rgba(246, 237, 217, 0.4);
+}
+
+/*--------------------------------------------------------------------
+  アンケート結果
+--------------------------------------------------------------------*/
+.questions__result__data {
+  color: #b9b9b9;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.questions__result__chart__inner {
+  margin-top: 20px;
+}
+.questions__result__chart__answer {
+  display: flex;
+  justify-content: space-between;
+}
+.questions__result__chart__answer dt,
+.questions__result__chart__answer dd {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.questions__result__chart__answer dd {
+  color: #f39800;
+}
+.questions__result__chart__bar {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+.questions__result__chart__bar > div {
+  background-color: #f39800;
+  height: 20px;
+}
+
+/*--------------------------------------------------------------------
+  回答についてのコメント
+--------------------------------------------------------------------*/
+.questions__form {
+  margin-top: 40px;
+}
+.questions__form__lead {
+  color: #fb8c00;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+.questions__form__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.questions__form__inner__l, .questions__form__inner__r {
+  width: 47.5%;
+}
+.questions__form__inner__l textarea {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  padding: 15px;
+  width: 100%;
+  resize: vertical;
+}
+.questions__form__inner__r > dl {
+  display: flex;
+  align-items: center;
+}
+.questions__form__inner__r > dl dt {
+  font-size: 1.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.questions__form__inner__r > dl dd {
+  font-size: 1.5rem;
+}
+.questions__form__inner__r > dl dd label:nth-of-type(n+2) {
+  margin-left: 1em;
+}
+.questions__form__inner__r > dl dd input[type=checkbox] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.questions__form__inner__r > dl dd input[type=checkbox]:checked:before {
+  content: "✔";
+  color: #f39800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+.questions__form__inner__r > dl dd .questions__form__select {
+  position: relative;
+}
+.questions__form__inner__r > dl dd .questions__form__select::after {
+  content: "";
+  border: 0;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+}
+.questions__form__inner__r > dl dd .questions__form__select select {
+  color: #666666;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 2px 0;
+  width: 200px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.questions__form__inner__r > dl dd .questions__form__select select option {
+  padding: 0;
+}
+.questions__form__inner__r > dl dd .questions__form__select select::-ms-expand {
+  display: none;
+  /* デフォルトの矢印を無効(IE用) */
+}
+.questions__form__caution {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.questions__form__caution img {
+  width: 18px;
+  margin-right: 0.5em;
+}
+.questions__form button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 40px auto 0;
+  padding: 0;
+  width: 212px;
+  transition: 0.2s ease-in-out;
+}
+.questions__form button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  このアンケートについてのコメント一覧
+--------------------------------------------------------------------*/
+.questions__comment__list > li {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 25px 40px;
+}
+.questions__comment__list > li .questions__comment__list__txt {
+  color: #fb8c00;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.questions__comment__list > li .questions__comment__list__name {
+  color: #242424;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.questions__comment__list > li .questions__comment__list__name span:nth-of-type(n+2) {
+  margin-left: 0.5em;
+}
+.questions__comment__list > li .questions__comment__list__data {
+  color: #908d8d;
+  font-size: 1.2rem;
+}
+
+.js_accordion {
+  overflow: hidden;
+}
+
+.questions__comment__list > li.js_hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.js_more {
+  margin-top: 40px;
+}
+.js_more a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.js_more a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+/*# sourceMappingURL=questions.css.map */
+
+/*--------------------------------------------------------------------
+  sidebar
+--------------------------------------------------------------------*/
+.contentsbox_r {
+  align-items: center;
+  color: #242424;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.6rem;
+  font-weight: 700;
+  width: 100%;
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+.preparation {
+  display: flex;
+  align-items: center;
+}
+.preparation__img {
+  width: 50px;
+}
+.preparation__txt {
+  margin-left: 1rem;
+}
+.preparation__txt span {
+  color: #eb332f;
+}
+.clearfix .data {
+  color: #b9b9b9;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.clearfix .ttl {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.wrap__daily {
+  margin-top: 10px;
+  background-color: #ffffff;
+  text-align: start;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  width: 100%;
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+.daily__que__sb {
+  display: flex;
+  margin-top: 20px;
+}
+.daily__que__sb__img {
+  width: 50px;
+}
+.daily__que__sb__txt {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 1em;
+}
+.daily__que__sb__txt span {
+  color: #eb332f;
+}
+.daily__form__sb {
+  margin-top: 20px;
+}
+.daily__form__label__sb label {
+  display: block;
+  background: #ffebbe;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dec896;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 10px;
+  padding: 21px 20px 18px;
+  width: 100%;
+}
+.daily__form__label__sb label input[type=radio] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: -0.25em 0.75em 0 0;
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.daily__form__label__sb label input[type=radio]:checked {
+  background: #f39800;
+}
+.daily__form__sb__txt {
+  color: #f39800;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+.daily__form__sb__txt::before {
+  content: "＼";
+  margin-right: 0.5em;
+}
+.daily__form__sb__txt::after {
+  content: "／";
+  margin-left: 0.5em;
+}
+.daily__form__sb__txt span {
+  color: #eb332f;
+}
+.daily__form__sb button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 41px;
+  margin: 5px auto 0;
+  padding: 0;
+  width: 200px;
+  transition: 0.2s ease-in-out;
+}
+.daily__form__sb .done {
+  display: block;
+  color: #ffffff;
+  background-color: #ccc;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 41px;
+  margin: 5px auto 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 200px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+a.textlink__sb__arrow {
+  color: #fb8c00;
+  font-size: 1.2rem;
+}
+a.textlink__sb__arrow::before {
+  content: "▶︎";
+}
+/*--------------------------------------------------------------------
+  style
+--------------------------------------------------------------------*/
+.mt-20 {
+  margin-top: 20px !important;
+}
+/*--------------------------------------------------------------------
+  backnumber-custom
+--------------------------------------------------------------------*/
+.backnumber-custom dl {
+  margin-top: 20px;
+}
+.backnumber-custom dl:nth-child(n+2) {
+  margin-top: 40px;
+}
+.backnumber-custom dl dt {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.backnumber-custom dl dd ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.backnumber-custom dl dd ul li {
+  margin: 20px 20px 0 0;
+  width: calc(30% - 15px);
+}
+.backnumber-custom dl dd ul li a {
+  display: block;
+  color: #fb8c00;
+  border: 2px solid #fb8c00;
+  border-radius: 6px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+.backnumber-custom dl dd ul li a:hover {
+  opacity: 0.8;
+}
+.users__center__box > .users__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+/*--------------------------------------------------------------------
+  人気のお得レシピ
+--------------------------------------------------------------------*/
+.recipe__list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow-x: unset;
+  overflow-y: unset;
+}
+.recipe__list ul li {
+  margin: 10px 0 0;
+  width: 32.2857%;
+  min-width: 32.2857%;
+}
+.recipe__list ul li a {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  width: 100%;
+  padding: 25px 15px 15px;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+.recipe__list ul li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.recipe__thumb {
+  width: 112px;
+  height: 112px;
+  margin: auto;
+}
+.recipe__ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 10px 0;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 2;
+}
+.recipe__date, .recipe__clip {
+  color: #666666;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  text-align: right;
+}
+.recipe__clip span {
+  color: #eb332f;
+}
+/*--------------------------------------------------------------------
+  table
+--------------------------------------------------------------------*/
+.wrap-table {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  border-bottom: 1px dotted #fb8c00;
+  height: auto;
+}
+.date {
+  color: #b9b9b9;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.theme {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.responses {
+  font-size: 1.4rem;
+  text-align: left;
+}
+/*--------------------------------------------------------------------
+  いま聞きたい！デイリーアンケート
+--------------------------------------------------------------------*/
+.daily__que {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.daily__que__img {
+  width: 50px;
+}
+.daily__que__txt {
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-left: 1em;
+}
+.daily__que__txt span {
+  color: #eb332f;
+}
+.daily__form {
+  margin-top: 40px;
+}
+.daily__form__label label {
+  display: block;
+  background: #ffebbe;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dec896;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 10px;
+  padding: 21px 30px 18px;
+  width: 100%;
+}
+.daily__form__label label input[type=radio] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: -0.25em 0.75em 0 0;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.daily__form__label label input[type=radio]:checked {
+  background: #f39800;
+}
+.daily__form__txt {
+  color: #f39800;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+}
+.daily__form__txt::before {
+  content: "＼";
+  margin-right: 0.5em;
+}
+.daily__form__txt::after {
+  content: "／";
+  margin-left: 0.5em;
+}
+.daily__form__txt span {
+  color: #eb332f;
+}
+.daily__form button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 72px;
+  margin: 5px auto 0;
+  padding: 0;
+  width: 360px;
+  transition: 0.2s ease-in-out;
+}
+.daily__form .done {
+  display: block;
+  color: #ffffff;
+  background-color: #ccc;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 72px;
+  margin: 5px auto 0;
+  margin-top: 40px;
+  padding: 0;
+  width: 360px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+a.textlink {
+  color: #fb8c00;
+  font-size: 1.5rem;
+}
+a.textlink::before {
+  content: "▶︎";
+}
+/*--------------------------------------------------------------------
+  btn regist
+--------------------------------------------------------------------*/
+.toregist { text-align:center;}
+.toregist .txt_regi { margin:10px auto; font-size: 14px;}
+.toregist img { width:300px; height:auto;}
+.js_more .AjaxContent {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.js_more .AjaxContent:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  google ad
+--------------------------------------------------------------------*/
+div.google_ad_sidebar {
+  margin-top: 20px !important;
+}
+div.google_ad_kijinaka {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 15px 0;
+}
+div.google_ad_kijisita {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 40px;
+}

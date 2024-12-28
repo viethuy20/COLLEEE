@@ -1,0 +1,11 @@
+/*--------------------------------------------------------------------
+  Sidebar Content
+--------------------------------------------------------------------*/
+.sidebar .contents__ttl {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.sidebar .contents__ttl > * {
+  font-weight: normal;
+}

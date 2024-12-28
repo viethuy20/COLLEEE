@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------
+  ゲームでゲット
+--------------------------------------------------------------------*/
+.get_game__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.get_game__list > li {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 10px;
+  padding: 15px 20px 20px;
+  width: 49.2857%;
+}
+.get_game__list__ttl {
+  color: #f39800;
+  font-size: 2.1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.get_game__list__thumb {
+  margin-top: 10px;
+  text-align: center;
+}
+.get_game__list__thumb img {
+  width: 234px;
+}
+.get_game__list__thumb a {
+  display: block;
+  box-shadow: 0 3px 0 0 #dedede;
+  transition: 0.2s ease-in-out;
+}
+.get_game__list__thumb a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.get_game__list__chart {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+.get_game__list__chart__list {
+  margin: 10px;
+}
+.get_game__list__chart__list h2 {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 1em;
+  width: 200px;
+  padding: 3px;
+  margin: 0 auto;
+}
+.get_game__list__chart__list li {
+  font-size: 1.5rem;
+  margin-top: 3px;
+  text-align: center;
+}
+.get_game__list__txt {
+  font-size: 1.5rem;
+}
+.get_game__list__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px auto 0;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.get_game__list__btn a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  感想投稿でゲット
+--------------------------------------------------------------------*/
+.get_review__list > li a {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 10px;
+  padding: 20px;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.get_review__list > li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.get_review__list > li a .get_review__list__thumb {
+  width: 37.5758%;
+}
+.get_review__list > li a .get_review__list__thumb img {
+  width: 100%;
+}
+.get_review__list > li a .get_review__list__contents {
+  padding-left: 20px;
+}
+.get_review__list > li a .get_review__list__ttl {
+  color: #f39800;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+.get_review__list > li a .get_review__list__txt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 60px;
+}
+.get_review__list > li a .get_review__list__txt img {
+  width: 20px;
+  margin-right: 0.25em;
+}
+.get_review__list > li a .get_review__list__txt span {
+  color: #f39800;
+  margin-right: 1em;
+}
+.get_review__list__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px auto 40px;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.get_review__list__btn a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  クリックでゲット
+--------------------------------------------------------------------*/
+.get_click__list > li {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 20px;
+  width: 100%;
+}
+.get_click__list__ttl {
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+.get_click__list__link {
+  margin-top: 10px;
+}
+.get_click__list__link a {
+  color: #f39800;
+  font-size: 1.5rem;
+}
+.get_click__list__link a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+.get_click__list__bnr {
+  margin-top: 30px;
+}
+.get_click__list__bnr a {
+  display: block;
+  margin: auto;
+  width: 70%;
+  transition: 0.2s ease-in-out;
+}
+.get_click__list__bnr a:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=sp_programs.css.map */
+
+.breadcrumb {
+    margin:0px auto 15px;
+    width:1080px;
+    position: relative;
+}
+.breadcrumb li {
+    display: inline-block;
+    list-style:none;
+    font-weight:bold;
+    font-size: 14px;
+}
+.breadcrumb li a {
+    color:#f39800;
+}
+.breadcrumb li a:hover {
+    text-decoration:underline;
+}
+
+#type_juku { width:970px; margin:0 auto;}
+#type_juku .login, #type_juku .notlogin { width:970px;}
+#type_juku .notlogin img { width:100%; height:auto;}
+#information {border-radius: 5px;width: 970px; padding: 15px 20px 15px 15px; background: #eee;margin: 15px auto;}
+#information h2 { font-size:24px;}
+#information ul {margin:0; padding:0;}
+#information ul li { list-style:none; text-indent:-1em; padding:0 0 0.3em 2em; font-size:13px;}
+.red {color: #ff3333;font-weight: bold;}
+#event { border-radius:5px; padding:15px 0; background:#FCFCD5; margin:15px 0; text-align:center;}
+#event p {width: 100%;padding: 0px 80px;text-align: left;}
+
+/*--------------------------------------------------------------------
+  google ad
+--------------------------------------------------------------------*/
+div.google_ad_header {
+  margin-left: -14px;
+}
+div.google_ad_gamesita {
+  margin-top: 20px;
+  padding: 15px 20px 20px;
+  width: 49.2857%;
+}

@@ -1,0 +1,6 @@
+Subject: [ファンくる] ${title}
+
+${user.name}さん
+◆「${shop.name}」モニター
+────────
+${content}

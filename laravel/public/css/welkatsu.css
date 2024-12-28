@@ -1,0 +1,216 @@
+  /*--------------------------------------------------------------------
+    main contents
+  --------------------------------------------------------------------*/
+  .welkatsu__about_fv {
+    margin-left: calc(-5% - 1px);
+    width: calc(110% + 3px);
+  }
+  .welkatsu__title {
+    padding: 11px 0;
+    text-align: center;
+    border-bottom: 1px solid #0b308e;
+    margin-left: calc(-5% - 1px);
+    width: calc(110% + 3px);
+  }
+  .welkatsu__title img {
+    height: 35px;
+  }
+  .welkatsu__title img.multiple {
+    width: 260px;
+    height: auto;
+  }
+  .welkatsu__about div.u-mt-20 {
+    margin-left: calc(-5% - 1px);
+    width: calc(110% + 3px);
+  }
+  .welkatsu__requirement {
+    border: 2px solid #e42521;
+    padding: 0 !important;
+    font-weight: bold;
+  }
+  .welkatsu__requirement__ttl {
+    position: relative;
+    color: #ffffff;
+    background: #e42521;
+    font-size: 1.75rem;
+    padding: 6px 0;
+  }
+  .welkatsu__requirement__ttl:before {
+    content: "";
+    background: url(/../images/welkatsu/icon_check.png) no-repeat center;
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 25%;
+    max-width: 100px;
+    height: 130px;
+    background-size: contain;
+  }
+  .welkatsu__requirement__txt {
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  .welkatsu__requirement__txt .reward {
+    font-size: 1.5em;
+    color: #eb332f;
+  }
+  .welkatsu__ttl h2 {
+    color: #fff;
+    font-size: 1.75rem;
+    line-height: 3.75rem;
+    border-radius: 6px;
+    background-size: 24px 24px;
+    background-position: 0 0, 12px 12px;
+  }
+  .welkatsu__ttl__a {
+    background: linear-gradient(45deg, #e42521 25%, transparent 25%, transparent 75%, #e42521 75%), linear-gradient(45deg, #e42521 25%, transparent 25%, transparent 75%, #e42521 75%);
+    background-color: #eb332f;
+  }
+  .welkatsu__ttl__b {
+    background: linear-gradient(45deg, #c09e00 25%, transparent 25%, transparent 75%, #c09e00 75%), linear-gradient(45deg, #c09e00 25%, transparent 25%, transparent 75%, #c09e00 75%);
+    background-color: #caa600;
+  }
+  .welkatsu__list__flex li a {
+    display: block;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #dedede;
+    width: 100%;
+    padding: 25px 15px 15px;
+    transition: 0.2s ease-in-out;
+  }
+  .welkatsu__list__flex li a:hover {
+    opacity: 0.8;
+    box-shadow: 0 1px 0 0 #dedede;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__thumb {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__countdown {
+    color: #eb332f;
+    border: 1px solid #eb332f;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__ttl {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-top: 10px;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 1;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__txt1, .welkatsu__list__flex li a .welkatsu__list__flex__txt2 {
+    color: #666666;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 5px 0 15px;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__txt1 {
+    -webkit-line-clamp: 1;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__txt2 {
+    -webkit-line-clamp: 2;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__linethrough {
+    color: #666666;
+    font-size: 1.8rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: line-through;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__point {
+    color: #eb332f;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__point.arrow {
+    position: relative;
+    vertical-align: middle;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__point.arrow::before, .welkatsu__list__flex li a .welkatsu__list__flex__point.arrow::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    vertical-align: middle;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__point.arrow::before {
+    left: 9px;
+    box-sizing: border-box;
+    width: 12px;
+    height: 12px;
+    border: 6px solid transparent;
+    border-left: 9px solid #242424;
+  }
+  .welkatsu__list__flex li a .welkatsu__list__flex__point.arrow::after {
+    left: 0;
+    width: 0px;
+    height: 3px;
+    border-left: 9px solid #242424;
+  }
+  .welkatsu__detail {
+    padding: 20px 0 0;
+  }
+  .welkatsu__detail__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    overflow-x: unset;
+    overflow-y: unset;
+    -webkit-overflow-scrolling: unset;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .welkatsu__detail__list li {
+    width: calc((100% - 10px) / 2);
+  }
+  .welkatsu__exchange ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .welkatsu__exchange ul li {
+    border-radius: 10px;
+    border: 2px solid #0b308e;
+    overflow: hidden;
+  }
+  .welkatsu__exchange ul li p {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .welkatsu__exchange__btn {
+    margin-bottom: 20px;
+  }
+  .welkatsu__exchange__btn a {
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s ease-in-out;
+    width: 90%;
+  }
+  
+  .howmuch_bg {
+    background: url(/../images/welkatsu/point_bg.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    aspect-ratio: 688/1047;
+  }

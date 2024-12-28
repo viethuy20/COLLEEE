@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_remind {    background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 8px;font-size: 21px;border: 0;padding: 10px;color: #f45934;margin: 15px;}
+
+/*-----------------------------------------------------setting */
+.setting {min-height: calc(100vh - 400px);}
+.setting input {-webkit-appearance: none;-moz-appearance: none;appearance: none; margin-bottom:5px;}
+.setting .form01 { border: 1px solid #888f9e; border-radius:4px; width:100%; padding:5px;}
+.setting .error, .setting .error span {color:#c63338; margin:5px 0;}
+.setting .send {color: #fff; border-width:0 0 5px; border-style:solid; border-color:#c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 0;margin: 5px 19%;}
+.setting .done {color: #C73338;font-size: 21px;font-weight: bold;text-align: center; margin:30px 0;}
+.setting .btn_top {color: #fff; border-bottom:5px solid #c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 12px;font-weight: bold;padding: 10px 0;margin: 5px 19%;}
+.setting .btn_top a {color:#fff;}
+.setting .address_new { background-color:#fdf9dc; padding:15px 0; text-align:center; width:100%; margin-bottom:10px;}
+.setting .new { color:#f35934; font-size:16px; font-weight:bold;}
+.setting a.another { display:inline-block; color:#066b74; font-weight:bold;}
+.setting .stint { color:#989898; font-size:12px;}
+.setting .select_radio { margin-bottom:20px;}
+.setting .select_radio input { display:none;}
+.setting .select_radio label { line-height:2.5;}
+.setting .select_radio label span {padding-left: 25px;position:relative;margin:0 20px 0 0;}
+.setting .select_radio label span::before{content: "";display: block;position: absolute;top: 0;left: 0;width: 15px;height: 15px;border: 1px solid #89909f;border-radius: 50%;}
+.setting .select_radio input[type="radio"]:checked + span::after{content: "";display: block;position: absolute;top: 3px;left: 3px;width: 11px;height: 11px;background: #89909f;border-radius: 50%; margin-bottom:20px;}
+.setting .prefectures {-webkit-appearance: none;-moz-appearance: none;appearance: none;padding: 10px;border: 1px solid #a6abaf;background-color: #fff;background-image: url(../../images/ico-b-select.svg);background-repeat: no-repeat;background-position: 97% center;background-size: 14px auto;font-size: 14px;margin: 0 0 10px 0;width: 100%;border-radius: 4px;}
+.setting h4 {margin:10px 0 5px;}
+.setting h4 span {color:#f35934;}
+.setting .small_11 { font-size:11px;}
+
+.setting .bar_strength { float:left; width: calc(100% - 10em); border:1px solid #89909f; padding:2px;}
+.setting .bar_strength div { content:""; height:10px;}
+.setting .veryweak .bar_strength div {width:20%; background-color:#c73338;}
+.setting .weak .bar_strength div {width:40%; background-color:#ff9200;}
+.setting .good .bar_strength div {width:60%; background-color:#ffdb37;}
+.setting .strong .bar_strength div {width:80%; background-color:#066b74;}
+.setting .verystrong .bar_strength div {width:100%; background-color:#0669a2;}
+.setting .notyet .bar_strength div {width:0%; background-color:#0669a2;}
+.setting .strength { float:right; width:9em; font-size:13px;}
+.setting .veryweak .strength:after { color:#f45934; content:"弱"; font-size:13px; font-weight:bold;}
+.setting .weak .strength:after { color:#f45934; content:"弱"; font-size:13px; font-weight:bold;}
+.setting .good .strength:after { color:#f45934; content:"中"; font-size:13px; font-weight:bold;}
+.setting .strong .strength:after { color:#f45934; content:"強"; font-size:13px; font-weight:bold;}
+.setting .verystrong .strength:after { color:#f45934; content:"強"; font-size:13px; font-weight:bold;}
+.setting .notyet .strength:after { color:#f45934; content:""; font-size:13px; font-weight:bold;}
+.setting > p > a { color:#066b74; display:inline; font-weight:bold;}
+

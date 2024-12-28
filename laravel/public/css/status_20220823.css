@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents__box {
+  width: 100%;
+  padding: 30px;
+}
+.contents__wrap .ico_ttl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents__wrap .ico_ttl i {
+  display: flex;
+  margin-right: 0.25em;
+}
+.contents__wrap .ico_ttl i img {
+  width: 20px;
+}
+.member_rank__box {
+  max-width: 420px;
+  margin: auto;
+}
+.member_rank__txt {
+  border: 1px solid #b9b9b9;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+  margin-top: 40px;
+}
+.member_rank__txt span {
+  color: #eb332f;
+  font-weight: 700;
+}
+.member_rank__list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.member_rank__list ul li {
+  width: calc((100% - 20px) / 3);
+}
+.member_rank__list ul li .txt {
+  color: #fb8c00;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+.member_rank__tb table {
+  width: 100%;
+}
+.member_rank__tb table thead tr {
+  border-bottom: 1px solid #666666;
+  padding: 0;
+}
+.member_rank__tb table thead tr th {
+  text-align: center;
+}
+.member_rank__tb table tr:nth-child(5) {
+  border-bottom: 1px solid #666666;
+}
+.member_rank__tb table tr th {
+  border-right: 1px solid #666666;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: left;
+  vertical-align: middle;
+  padding: 15px;
+}
+.member_rank__tb table tr th:last-child {
+  border-right: none;
+}
+.member_rank__tb table tr th img {
+  display: block;
+  margin: 10px auto;
+  width: 36px;
+  height: 42px;
+}
+.member_rank__tb table tr td {
+  border-right: 1px solid #666666;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px 0;
+  width: 25%;
+}
+.member_rank__tb table tr td:last-child {
+  border-right: none;
+}
+.member_rank__tb table tr td .pt {
+  color: #eb332f;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.member_rank__tb table tr td .pt span {
+  font-size: 1.5rem;
+  margin: 0 2px;
+}
+.member_rank__tb table tr td .fee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4da35;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 0;
+  height: 54px;
+}
+.member_rank__tb table tr td span.plus {
+  display: block;
+  color: #ffffff;
+  background-color: #eb332f;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+.member_rank__tb table tr.each th {
+  vertical-align: top;
+  padding: 20px 15px;
+}
+.member_rank__tb table tr.each td {
+  text-align: left;
+  vertical-align: top;
+  padding: 20px 10px;
+}
+.member_rank__tb table tr.each td span {
+  display: block;
+  background-color: #f6edd9;
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 0.5em;
+  width: 4em;
+}
+.member_rank__tb table tr.each td span:nth-child(n+2) {
+  margin-top: 1.5em;
+}
+
+a.textlink {
+  color: #fb8c00;
+}

@@ -1,0 +1,35 @@
+/*--------------------------------------------------------------------
+  foot-notes
+--------------------------------------------------------------------*/
+.foot-notes {
+  font-size: 11px;
+  color: #666666;
+}
+.foot-notes > li {
+  position: relative;
+  padding-left: 1rem;
+}
+.foot-notes > li::before {
+  content: "※";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.foot-notes__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: calc(100% - 32px);
+  min-width: 980px;
+  max-width: 1200px;
+  margin-top: 40px;
+  margin-inline: auto;
+  padding: 16px;
+  color: #666666;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: left;
+  border: solid 1px #dddddd;
+  border-radius: 8px;
+  background: #F8F8F8;
+}

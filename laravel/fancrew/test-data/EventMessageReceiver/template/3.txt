@@ -1,0 +1,2 @@
+店舗名: ${shop.name}
+ジャンル: ${shop.Genre.name}

@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.contents__wrap .contents__box {
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 20px 5%;
+}
+.id_relation__ttl {
+    font-size: 1.8rem;
+}
+.id_relation__btn {
+    margin: 40px auto 0;
+}
+.id_relation__btn a {
+    display: block;
+    color: #ffffff;
+    background-color: #e44f6f;
+    border: none;
+    border-radius: 36px;
+    box-shadow: 0 3px 0 0 #dedede;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+.id_relation__btn a:hover {
+    opacity: 0.8;
+    box-shadow: 0 1px 0 0 #dedede;
+}

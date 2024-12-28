@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_status {border:0!Important;margin: 15px; padding:0!Important;}
+.main_contents h1.ttl_status img { width:100%; height:auto;}
+.noborder-t { border-top:0!Important;}
+
+.rank img {width:100%; height:auto;}
+.rank .yourself { font-size:16px; text-align:center;}
+.rank .yourself span { font-size:21px; font-weight:bold; color:#f35934;}
+
+.conditions { margin-bottom:15px;}
+.conditions h3 { color:#f35934; font-size:16px;font-weight:bold;}
+.conditions table { width:100%; margin-bottom:10px;}
+.conditions tr { border-bottom:1px solid #ccc;}
+.conditions tr:nth-child(3n) { border-bottom:0;}
+.conditions th { background-color:#eee; width:4em; text-align:center; vertical-align:middle; font-weight:bold; border-right:1px solid #ccc;}
+.conditions td { padding:10px; vertical-align:middle; font-size:13px;}
+.conditions td img { width:30px; height:auto; vertical-align:middle; margin-left:5px;}
+.conditions td dt { background-color:#066b74; display: inline-block; color:#fff; padding:1px 5px; font-size:13px;}
+.conditions td dd { font-size:13px;}
+.conditions td li { font-size:14px;}
+.conditions td li span { color:#f35934; font-weight:bold;}
+.common_condition { font-weight:bold; font-size:14px; margin-bottom:15px; border:1px solid #ccc; padding:5px;}
+.common_explanation { font-size:13px;}
+
+#getpoint { margin-bottom:15px;}
+#getpoint .step3 { border:1px solid #e7e9ee; border-radius:6px; background-color:#fdf9dc; padding:10px; box-sizing:border-box; margin-bottom:15px;}
+#getpoint .step3 h3 { font-size:16px; font-weight:bold; margin:5px; border:none; padding:0;}
+#getpoint .step3 h3 span { font-size:13px; background-color:#066b74; color:#fff; font-weight:bold; margin:5px 5px 5px 0;; border:none; padding:5px 8px;}
+#getpoint .step3 p {margin:0 0 10px; font-size:12px; border-top:1px dotted #888f9e; padding-top:10px;}
+#getpoint .step3 a p.btn_blog, #something a p.btn_blog, #tologin a p.btn_blog, #send_url a p.btn_blog {color:#fff; background-color:#f35934; border-bottom:4px solid #c63338; border-radius:4px; width:67%; display:inline-block; text-align:center; text-decoration:none; font-size:14px; font-weight:bold; padding:10px 0; margin:0 16.5% 5px; border-top:0;}
+#getpoint .step3 img { width:70%; height:auto; margin:0 15%;}
+
+.rank_note h2 { border:0!Important; font-size:16px;font-weight:bold; margin:0!Important; padding-left:0;}
+.rank_note h2 span { color:#f35934;}
+.rank_note h3 { color:#f35934; font-size:16px;font-weight:bold;}
+.rank_note p { font-size:12px;}
+.rank_note ul {padding:5px 0 5px 20px;}
+.rank_note li { list-style-type:disc; font-size:12px;}
+.rank_note li a {font-size: 12px;color: #066b74; display:inline; font-weight:bold;}
+.rank_note .example { margin-left:0; padding:0;}
+.rank_note .example li {list-style-type:none;}
+

@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_exchange { background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 8px;font-size: 21px;border: 0;padding: 10px;color: #f45934;margin: 15px;}
+.main_contents h1.ttl_exchange span { font-size:16px;}
+.main_contents h1.ttl_search { font-size:13px;}
+.main_contents h1.ttl_search span { font-size:16px;}
+
+.tohelp { display:inline; color:#066b74; font-weight:bold;}
+
+.done {color: #C73338;font-size: 21px;font-weight: bold;text-align: center;margin: 30px 0;}
+
+.exchange_status .history {display: block;padding: 5px 10px;background-color: #fefadd;margin-bottom: 20px;width: 100%; border:1px solid #e8eaef; border-radius:4px;}
+.exchange_status .history dl { display:table; width:100%;}
+.exchange_status .history .applying {border-bottom: 1px dotted #888f9e;}
+.exchange_status .history dt, .exchange_status .history dd { display: table-cell;}
+.exchange_status .history dt { font-size:12px; font-weight:bold;}
+.exchange_status .history .applying dt { width:9.5em; padding-bottom:10px;}
+.exchange_status .history .exchanged dt { width:11em;}
+.exchange_status .history .applying dd { font-size:11px; text-align:right;}
+.exchange_status .history .applying dd .howmuch { color:#f45934; font-size:20px; font-weight:bold;}
+.exchange_status .history .exchanged dd { font-size:12px; text-align:right; padding-top:10px;}
+.exchange_status .history .exchanged dd .howmuch { font-weight:bold;}
+
+.destination .attention { font-size: 14px;}
+.destination ul { width:100%; font-size:0;}
+.destination li { border-bottom:1px dotted #888f9e; box-sizing:border-box; font-size:12px; display:inline-block; padding:10px 0;width:calc(100% / 1); clear:both;}
+/*.destination li:nth-child(odd) {border-right:1px dotted #888f9e;}*/
+.destination li a img { width:70px; height:auto; border:1px solid #89909f; float:left; margin-right:10px; display: none;}
+.destination li a p { color:#066b74; font-size:16px; font-weight:bold; margin-bottom: 5px;}
+.destination li a p span { margin-left: 5px; font-weight:normal;}
+.destination li a dl.detail_exchange { /*float:right; width:calc(100% - 45px);*/}
+.destination li a dl.detail_exchange dt { font-size:11px;border:1px solid #89909f; display:inline;margin:0 5px 5px 0;/*background-color: #fafb61;*/ padding:1px 2px; text-align:center; width:70px; float:left; clear:left;}
+.destination li a dl.detail_exchange dt.eins { width:5.5em; float:none; padding:4px 3px;}
+.destination li a dl.detail_exchange dd.eins {}
+.destination li a dl.detail_exchange dd {font-size:12px;padding:2px 0;margin:0 0 3px;}
+.destination li a dl.detail_exchange dd span {color:#f45934; font-size:30px; font-weight:bold;}
+
+.major_bank li {background: #d2ef78; background-image: url(../images/ico-r.svg); background-position:97% center; background-repeat:no-repeat; background-size:15px auto;cursor: pointer;border-radius: 4px;display: block;padding: 10px 30px 10px 10px; margin-bottom:10px;}
+.major_bank li a {font-size: 16px; font-weight:bold;}
+
+.selectedbank { margin-bottom:20px;}
+.selectedbank .bankname { width:100%;border: 1px solid #e2e2e2;background-color: #fefadd;padding:10px;border-radius: 4px; font-size:16px;}
+.selectedbank .fee { font-size:13px; margin-top:5px;}
+.selectedbank .fee:before { content:"手数料：";}
+.selectedbank p a {color:#066b74; display:inline-block; font-weight:bold; text-decoration:underline;}
+.selectedbank .caution dt { font-weight:bold; margin-bottom:5px;}
+.selectedbank .caution dt span {color:#f45934;}
+.selectedbank .caution dd { font-size:11px;}
+.selectedbank .caution dd li { list-style-type:disc; margin-left:15px;font-size:11px;}
+.selectedbank .select_account { font-size:0;}
+.selectedbank .select_account li { border-radius:6px; display:inline-block; padding:10px 0; text-align:center; width:48%;}
+.selectedbank .select_account li a {font-size:16px; font-weight:bold;}
+.selectedbank .select_account li:first-child { border-bottom:4px solid #c7b505; margin-right:4%; background-color:#ffdb37;}
+.selectedbank .select_account li:last-child { border-bottom:4px solid #c73338; background-color:#f45934}
+.selectedbank .select_account li:last-child a {color:#fff;}
+.selectedbank .note_account { color:#c73338; font-size:13px;}
+
+.setting_vh {min-height: calc(100vh - 380px);}
+
+.list_bank ul {border-top: 1px dotted #888f9e; margin-bottom:20px;}
+.list_bank li {border-bottom: 1px dotted #888f9e;margin: 0;padding: 10px 30px 10px 15px;background-image: url(../images/ico-r-border.svg);background-position: 99% 40%;background-repeat: no-repeat;background-size: 15px auto;}
+.list_bank li a {color:#066b74; font-weight:bold;}
+
+.search_bank .tosearch_bank {width: 100%;height: 35px;border-radius: 4px;border: 1px solid #89909f;padding: 5px; margin-bottom:10px;}
+.search_bank .search {color: #fff;border-width: 0 0 5px;border-style: solid;border-color: #c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 15px 10px 15px;margin: 5px 19% 15px;}
+
+.detailinput {}
+.detailinput h3 {color:#f45934; font-size:16px; font-weight:bold;}
+.detailinput input {-webkit-appearance: none;-moz-appearance: none;appearance: none; margin-bottom:5px;}
+.detailinput .form01 { border: 1px solid #888f9e; border-radius:4px; width:100%; padding:5px;}
+.detailinput p.error, .detailinput p.error span {color:#c63338; margin:5px 0;}
+.detailinput select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.detailinput .muchpoint {padding: 5px 10px;border: 1px solid #a6abaf;background-color: #fff;background-image: url(../../images/ico-b-select.svg);background-repeat: no-repeat;background-position: 95% center;background-size: 14px auto;font-size: 14px;margin: 0 0 5px 0;width: 100%;border-radius: 4px;}
+.detailinput .subtraction { font-size:12px; }
+.detailinput .subtraction span { color:#f45934; font-size:12px; font-weight:bold;}
+.detailinput .total { display:table; border:1px solid #e2e2e2; border-radius:4px; padding:10px; width:100%;}
+.detailinput .total p { display:table-cell; font-size:16px; font-weight:bold;}
+.detailinput .total .transfer{ width:6em;}
+.detailinput .total .amount { text-align:right; color:#f45934;}
+.detailinput .total .amount:after { content:"円";}
+.detailinput .note { background-color:#fefadd; padding:10px;}
+.detailinput .note span {color:#c63338;}
+.detailinput a {color: #066b74;display: inline-block;font-weight: bold;}
+.detailinput .stint {color: #989898;font-size: 12px;}
+.exchange_applied dl{width:100%;border: 1px solid #e2e2e2;background-color: #fefadd;padding:10px;border-radius: 4px; text-align:center;margin: 20px 0;}
+.exchange_applied dt{font-weight:bold;font-size:18px;}
+.exchange_applied dd{margin-bottom: 10px;}
+.exchange_applied .bankname {width:100%;border: 1px solid #e2e2e2;background-color: #fefadd;padding:10px;border-radius: 4px; font-size:20px; font-weight:bold; text-align:center;}
+.exchange_applied .takecare {color:#c73338;font-weight:bold;}
+.small_11 { font-size:11px;}
+.exchange_note ul { margin-bottom:20px;}
+.exchange_note li { list-style-type:disc; margin-left:15px; font-size:11px; margin-bottom:5px;}
+.exchange_note li.thisone {color:#c73338; font-weight:bold}
+
+/*---------------------------------------------------------------exchange detail confirmation*/
+.detailconf .putted { font-size:16px;}
+
+.detailinput .send#GiftCodeSend {color: #fff; border-width:0 0 5px; border-style:solid; border-color:#c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 0;margin: 15px 19%;}
+.send {color: #fff; border-width:0 0 5px; border-style:solid; border-color:#c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 0;margin: 15px 19%;}
+input.send { margin-bottom:15px;}
+.send a { color:#fff;}
+
+/*---------------------------------------------------------------adarea*/
+.adarea { width:100%; margin-bottom:20px; display:none;}
+.adarea a img { width:100%; height:auto;}
+.adarea p a {color:#066b74; display:inline-block;}
+
+/*---------------------------------------------------------------bnrarea*/
+.bnrarea img { width:100%; height:auto;}
+
+/*---------------------------------------------------------------individual*/
+.exchange_individual h3 { border-bottom:1px dotted #89909f; color:#f45934; font-size:16px; font-weight:bold; padding-bottom:5px; margin-bottom:5px;}
+.exchange_individual .tolink a {text-decoration: none;color: #066b74;font-weight: bold;display: inline;}
+.exchange_individual .caution dt { font-weight:bold;}
+.exchange_individual .caution dt span { color:#f45934;}
+.exchange_individual .caution .note { margin-bottom:15px;}
+.exchange_individual .caution .note li { list-style-type:disc; margin-left:15px; font-size:11px; margin-bottom:5px;}
+.exchange_individual .caution .note li > ul > li { list-style-type:none; margin-left:5px;}
+.exchange_individual p { margin-bottom:15px;}
+.exchange_individual .color_red {color:#c63338}
+.exchange_individual .trademark li { font-size:11px;}
+.exchange_individual .caution .note li a { color:#066b74; text-decoration:none; display:inline; font-size:11px; font-weight:bold;}
+.exchange_individual .detail_exchange { margin:10px 0 15px;}
+.exchange_individual .detail_exchange dt { background-color:#fff; border:1px solid #333; display:inline-block; padding:1px 2px; margin-bottom:3px; font-size:12px;}
+.exchange_individual .detail_exchange dd { margin-bottom:5px;}
+.exchange_individual .detail_exchange dd span {    color: #f45934;font-size: 18px;font-weight: bold;}
+.exchange_individual .detail_exchange dd:last-child { margin-bottom:0;}
+.exchange_individual p a { display:inline-block;color: #066b74;text-decoration: none; font-weight:bold;}
+
+.img-dotmoney{text-align: center;}
+.img-dotmoney img{width: 100%;height: auto;}
+.account-number{margin-bottom: 10px;}
+
+/*------------------------------------------------------------maintenance*/
+.maintenance { text-align:center;}
+.maintenance img {width: 120px;height: auto;margin: 10px auto;}
+.maintenance p { color:#c63338; font-size:13px;}
+
+/*------------------------------------------------------------btns*/
+button{background-color: transparent;border: none;cursor: pointer;outline: none;padding: 0;appearance: none;-webkit-appearance: none;}
+.GiftCodeButton{display:block;width:30%;background-color:#d3f078;font-size:16px;border: none;outline: none;padding: 5px 0;appearance: none;-webkit-appearance: none;border-radius:6px;float:left;margin-right:5px;margin-bottom:10px;height:35px;}
+.GiftCodeButton.disabled{background-color:#EEE;appearance: none;-webkit-appearance: none;}
+.detailinput button img{width:13px;height:13px; vertical-align:middle; margin-left:5px;}
+#GiftCodeClearButton {background-color:#ccc;display:block;width:30%;font-size:16px;padding: 5px 10px;border-radius:6px;float:left;margin-right:5px;margin-bottom:10px;height:35px;appearance: none;-webkit-appearance: none;}

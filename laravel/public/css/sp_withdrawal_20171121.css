@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_withdrawal {    background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 8px;font-size: 21px;border: 0;padding: 10px;color: #f45934;margin: 15px;}
+
+/*--------------------------------------------------------------leaving*/
+.leaving {min-height: calc(100vh - 400px);}
+.leaving .caution { font-size:13px; margin-bottom:20px; background-color:#fefadd; padding:10px;}
+.leaving .caution img { float:left; margin-right:1em;}
+.leaving .caution p, .leaving .caution a { font-size:13px;}
+.leaving .caution .cap { font-size:21px; font-weight:bold; color:#C73338;}
+.leaving .caution .cap img { width:30px; height:auto;}
+.leaving .caution p span { color:#C73338; font-weight:bold;}
+.leaving .ends_txt { text-align:center; font-size:16px; font-weight:bold;}
+.leaving .ends img { margin:20px 0 0;}
+
+.leaving .willget {display: block;padding: 5px 10px;background-color: #FFF1A6;border-radius: 8px;margin-bottom: 20px;width: 100%;text-align: center;}
+.leaving .howmuch {text-align: right;font-size: 20px;font-weight: bold;color: #f45934;margin-right: 5px;}
+.leaving .unit {font-size: 14px;text-align: right;vertical-align: middle;font-weight: normal;}
+.leaving h2 .required { background-color:#c73338;color:#fff; font-size:12px; padding:2px 8px; margin-left:.5em;}
+.leaving {min-height: calc(100vh - 400px);}
+.leaving p a { color:#066b74; display:inline-block; text-decoration:underline;}
+.leaving input[type="checkbox"] {display: none;}
+.leaving label {position: relative;display: inline-block;padding: 3px 3px 3px 22px;cursor: pointer;}
+.leaving label::before {position: absolute;content: '';top: 50%;left: 0;width: 14px;height: 14px;margin-top: -8px;background: #fff;border: 1px solid #ccc;}
+.leaving input[type="checkbox"]:checked + label::after {position: absolute;content: '';top: 7px;left: 3px;width: 13px;height: 5px;border-left: 2px solid #333;border-bottom: 2px solid #333;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);
+}
+.leaving textarea {width: 100%;border-radius: 4px;padding: 10px;font-size: 14px;margin: 10px 0 20px;resize: none;border: 1px solid #999; min-height:6em;}
+.leaving .form01 { border: 1px solid #888f9e; border-radius:4px; width:100%; padding:5px;}
+.leaving .error, .leaving .error span {color:#c63338; margin:5px 0;}
+.leaving .send {color: #fff; border-width:0 0 5px; border-style:solid; border-color:#c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 0;margin: 5px 19%;}
+.leaving .done {color: #C73338;font-size: 21px;font-weight: bold;text-align: center; margin:30px 0;}
+.leaving .btn_top {color: #fff; border-bottom:5px solid #c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 12px;font-weight: bold;padding: 10px 0;margin: 5px 19%;}
+.leaving .btn_top a {color:#fff;}
+.leaving .address_new { background-color:#fdf9dc; padding:15px 0; text-align:center; width:100%; margin-bottom:10px;}
+.leaving .new { color:#f35934; font-size:16px; font-weight:bold;}
+.leaving a.another { display:inline-block; color:#066b74; font-weight:bold;}
+.leaving .stint { color:#989898; font-size:12px;}
+.leaving h3 { color:#f45934; font-size:16px; font-weight:bold; margin:10px 0 5px;}
+.leaving h4 {margin:10px 0 5px;}
+.leaving h4 span {color:#f35934;}
+.leaving .small_11 { font-size:11px;}
+.leaving .list_reason li { list-style-type:disc; margin-left:20px;}
+.leaving .btn_y { border-top:0; border-right:0; border-left:0; margin-top:15px;}

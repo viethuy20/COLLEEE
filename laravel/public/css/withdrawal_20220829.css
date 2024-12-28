@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents {
+    width: 100%;
+    max-width: 980px;
+}
+.contents__wrap .contents__box {
+  margin-top: 10px;
+  padding: 40px 60px 80px;
+  width: 100%;
+}
+.contents__box .caution { font-size:16px; margin-bottom:20px;}
+.contents__box .caution img { float:left; margin-right:1em; width:30px; height:30px;}
+.contents__box .caution p, .contents__box .caution a { font-size:16px;}
+.contents__box .caution .cap { font-size:24px; font-weight:bold; color:#C73338;}
+.contents__box .caution p span { color:#C73338; font-weight:bold;}
+.contents__box .list_checked { margin-left:20px;}
+.contents__box .list_checked li { list-style-type:disc;}
+.contents__box .txt_reason { margin:10px 10px 10px 0;}
+.withdrawal__center__box > .withdrawal__center__box__main {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  padding: 10px 0px;  
+  text-align: center;
+  line-height: 1.2;
+}
+.withdrawal__center__box > .withdrawal__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+.withdrawal__center__box > .withdrawal__center__box__main > p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.withdrawal__center__box__text {
+  margin-top: 20px;
+}
+.withdrawal__center__box__text p{
+  font-size: 1.5rem;
+  text-align: center;
+}
+/*--------------------------------------------------------------------
+  mail form
+--------------------------------------------------------------------*/
+.withdrawal__form input[type=checkbox] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.withdrawal__form input[type=checkbox]:checked:before {
+  content: "✔";
+  color: #f39800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+.withdrawal__form input[type=text],
+.withdrawal__form input[type=password],
+.withdrawal__form textarea {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.withdrawal__form table {
+  width: 100%;
+}
+.withdrawal__form table tr {
+  border-bottom: 1px dotted #b9b9b9;
+}
+.withdrawal__form table tr th,
+.withdrawal__form table tr td {
+  padding: 30px 0;
+  vertical-align: top;
+}
+.withdrawal__form table tr th {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 33.3333333334%;
+}
+.withdrawal__form table tr th span {
+  vertical-align: middle;
+}
+.withdrawal__form table tr th span.necessary::after {
+  content: "必須";
+  color: #ffffff;
+  background-color: #fb8c00;
+  font-size: 1.2rem;
+  margin: 0 0 0 5px;
+  padding: 2px 10px;
+  vertical-align: middle;
+}
+.withdrawal__form table tr td {
+  font-size: 1.5rem;
+}
+.withdrawal__form__pw {
+  font-size: 1.5rem;
+}
+.withdrawal__form__pw .txt {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.withdrawal__form__select {
+  display: flex;
+  align-items: center;
+}
+.withdrawal__form__select__inner {
+  width: 8em;
+  position: relative;
+  margin-right: 0.25em;
+}
+.withdrawal__form__select__inner:nth-child(n+2) {
+  margin-left: 1em;
+}
+.withdrawal__form__select__inner::after {
+  content: "";
+  border: 0;
+  border-right: 2px solid #f39800;
+  border-bottom: 2px solid #f39800;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  bottom: 0;
+  margin: auto;
+  width: 6px;
+  height: 6px;
+}
+.withdrawal__form__select__inner select {
+  color: #666666;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px;
+  width: 8em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.withdrawal__form__select__inner select option {
+  padding: 0;
+}
+.withdrawal__form__select__inner select::-ms-expand {
+  display: none;
+  /* デフォルトの矢印を無効(IE用) */
+}
+.withdrawal__form__notes {
+  margin-top: 30px;
+}
+.withdrawal__form__notes__box {
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  margin-top: 15px;
+  padding: 15px;
+  height: 172px;
+  overflow-y: scroll;
+}
+.withdrawal__form__notes__box p {
+  font-size: 1.5rem;
+}
+.withdrawal__form__privacy {
+  margin-top: 20px;
+}
+.withdrawal__form__privacy p {
+  font-size: 1.5rem;
+}
+.withdrawal__form__btn {
+  margin: 60px auto 0;
+}
+.withdrawal__form__btn button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 320px;
+  transition: 0.2s ease-in-out;
+}
+.withdrawal__form__btn button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+/* テキストリンク */
+a.textlink {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+a.textlink:hover {
+  text-decoration: none;
+}
+
+a.arrow {
+  color: #fb8c00;
+  text-decoration: underline;
+  position: relative;
+}
+a.arrow::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #f39800;
+  border-right: solid 2px #f39800;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: -10px;
+  bottom: 0;
+  margin: auto 0;
+}
+a.arrow:hover {
+  text-decoration: none;
+}
+
+a.external {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+a.external:hover {
+  text-decoration: none;
+}
+.btn_y {margin: 40px auto 0;}
+.btn_y a {
+  display: table;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  min-width: 160px;
+  max-width: 250px;
+  transition: 0.2s ease-in-out;
+}
+.btn_y a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.withdrawal__auth__btn {
+  display: table;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  min-width: 160px;
+  max-width: 250px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  transition: 0.2s ease-in-out;
+}
+.withdrawal__auth__btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}

@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents {
+  width: 100%;
+  max-width: 980px;
+  margin-bottom: 40px;
+}
+.contents__wrap .contents__box {
+  width: 100%;
+  padding: 30px;
+}
+
+.login__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.login__flex__l, .login__flex__r {
+  display: flex;
+  width: 48.5%;
+}
+
+.login__image {
+  text-align: center;
+  width: 100%;
+}
+.login__image img {
+  width: 100%;
+  max-width: 420px;
+}
+
+.login__point {
+  margin-top: 15px;
+  width: 100%;
+}
+.login__point ul {
+  width: 100%;
+}
+.login__point ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px dotted #b9b9b9;
+  padding: 15px 0;
+  width: 100%;
+}
+.login__point ul li .num {
+  color: #fb8c00;
+  border: 2px solid #fb8c00;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+.login__point ul li .txt {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 0 15px;
+  width: calc(100% - 30px - 192px);
+}
+.login__point ul li .image {
+  width: 192px;
+}
+
+.login__form {
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  padding: 40px;
+  width: 100%;
+}
+.login__form form input[type=text],
+.login__form form input[type=password] {
+  background: #ffffff;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.login__form__privacy {
+  margin-top: 40px;
+}
+.login__form__privacy p {
+  font-size: 1.5rem;
+}
+.login__form__btn {
+  margin: 40px auto 0;
+}
+.login__form__btn button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.login__form__btn button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+.login__form__btn_line {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login__form__btn_line img{
+height: 64px;
+}
+
+.login__form__btn_line img:hover{
+  opacity: 0.8;
+}
+
+a.textlink {
+  color: #fb8c00;
+}
+a.textlink i {
+  margin: 0 0.25em;
+  width: 1.2em;
+}
+a.textlink i img {
+  width: 1.2em;
+}
+
+a.external {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+a.external::after {
+  content: url(/images/inquiries/ico_external.svg);
+  display: inline-block;
+  line-height: 0;
+  margin: 0 3px;
+  position: relative;
+  top: 1px;
+  width: 13px;
+  height: 13px;
+}
+a.external:hover {
+  text-decoration: none;
+}

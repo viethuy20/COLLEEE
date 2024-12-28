@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.contents__wrap .contents__box {
+    box-shadow: 0 3px 0 0 #dedede;
+    margin-top: 10px;
+    padding: 20px 60px 60px;
+    width: 100%;
+}
+.id_relation__ttl {
+    font-size:2rem;
+    margin-top: 20px;
+}
+.id_relation__btn {
+    margin: 40px auto 0;
+}
+.id_relation__btn a {
+    display: block;
+    color: #ffffff;
+    background-color: #e44f6f;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 2px 0 0 #dedede;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 72px;
+    width: 240px;
+    margin: 0 auto;
+    padding: 0;
+    transition: 0.2s ease-in-out;
+}
+.id_relation__btn a:hover {
+    opacity: 0.8;
+    box-shadow: 0 1px 0 0 #dedede;
+}

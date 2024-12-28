@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_withdrawal {background-color: #eff1f4; border: 1px solid #e2e2e2;border-radius: 6px;font-size: 32px;color: #f45934;font-weight: bold;padding: 10px;margin: 0 0 20px;}
+
+
+/*--------------------------------------------------------form, leaving*/
+.leaving table {width:1050px; border-bottom:1px solid #92f6ac;border-spacing:0 10px;border-collapse: separate;}
+.leaving th { background-color:#FFF1A6; font-size:16px; font-weight:bold; vertical-align:middle; width:200px; padding:10px;}
+.leaving th .necessary { background-color:#f45934; font-size:12px; font-weight:bold; color:#fff; padding:5px;}
+.leaving td .snote { font-size:12px; color:#999}
+.leaving td { padding:10px;font-size:14px;vertical-align:middle; line-height:2;}
+.leaving td .inquiry_textbox { border:1px solid #999; border-radius:4px; width:100%; padding:5px;}
+.leaving td .error { background-color:#FFABAE;}
+.leaving td .e_message { font-size:14px; color:#C73338; font-weight:bold;}
+.leaving td .inquiry_textarea { border:1px solid #999; border-radius:4px; width:100%;height:150px;resize: none; padding:5px;}
+
+.inquiry .btns .btn_send { margin:0 10px;}
+.inquiry .btns .btn_cancel {background-color: #b3b3b3; border-width:0 0 4px 0; border-style:solid; border-color:#808080;border-radius: 6px;color: #fff;font-weight: bold;padding: 10px 0;text-align: center;width: 150px; display:inline-block; margin:0 10px;}
+.inquiry .contentsbox form td img { max-width: 490px; overflow:hidden;}
+
+.inquiry .btns { text-align:center; margin:20px auto 0;}
+.inquiry .ends, .leaving .ends {color: #c73338;font-size: 30px;font-weight: bold;text-align: center;}
+.inquiry .ends img {height: auto;margin: 10px auto;width: 330px;}
+.inquiry .btn_top {background-color: #f45934; border-bottom: 5px solid #c73338;border-radius: 8px;color: #fff;font-size: 20px;font-weight: bold;margin:20px auto 0;padding: 10px;text-align: center;width: 250px;}
+.leaving td dl { margin-top:10px;}
+.leaving td dt { font-size:16px; font-weight:bold;}
+.leaving td .checkboxes {width:240px; float:left; margin-bottom:10px;}
+.leaving .btn_send {background-color: #f45934; border-width:0 0 4px 0; border-style:solid; border-color:#c73338;border-radius: 6px;color: #fff;font-weight: bold;margin: 20px 450px;padding: 10px 0;text-align: center;width: 150px;display:inline-block;}
+.leaving .btn_comp {margin: 20px 240px 20px 50px!Important;}
+.leaving .btn_send a {color:#fff;}
+.leaving .btn_y {background-color: #ffdb37;display:block;font-size: 14px;font-weight: bold;width: 150px;padding: 10px 0;text-align: center; border-radius: 8px;border-width:0 0 4px 0;border-style:solid;border-color:#c7b505;margin: 15px 0 0 250px!Important; display:inline-block;float:left}
+
+.leaving .btns .btn_send {    margin: 15px 250px 0 0;float: right;}
+/*--------------------------------------------------------------leaving*/
+
+.leaving .contentsbox {background-color: #fefadd;border-radius: 8px; margin-bottom: 35px;padding: 20px;}
+
+.leaving .willget {display: block;padding: 5px 10px;background-color: #FFF1A6;border-radius: 8px;margin-bottom: 20px;width: 100%;text-align: center;}
+.leaving .howmuch {text-align: right;font-size: 20px;font-weight: bold;color: #f45934;margin-right: 5px;}
+.leaving .unit {font-size: 14px;text-align: right;vertical-align: middle;font-weight: normal;}
+.leaving .caution { font-size:16px; margin-bottom:20px;}
+.leaving .caution img { float:left; margin-right:1em; width:30px; height:30px;}
+.leaving .caution p, .leaving .caution a { font-size:16px;}
+.leaving .caution .cap { font-size:24px; font-weight:bold; color:#C73338;}
+.leaving .caution p span { color:#C73338; font-weight:bold;}
+.leaving .ends_txt { text-align:center; font-size:16px; font-weight:bold;}
+.leaving .ends img { margin:20px 0 0;}
+.leaving  td .e_message, .leaving  td .e_message span {font-size: 14px;color: #C73338;font-weight: bold;}
+.leaving .list_checked { margin-left:20px;}
+.leaving .list_checked li { list-style-type:disc;}
+.leaving .txt_reason { margin:10px 10px 10px 0;}

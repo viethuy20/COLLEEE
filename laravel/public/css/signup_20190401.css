@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+#register h1 {background-color: #eff1f4; border: 1px solid #e2e2e2;border-radius: 6px;font-size: 32px; color: #f45934;font-weight: bold; padding: 10px;margin: 0 0 20px;}
+#register h1.simple {border-left: 5px solid #f45934;font-size: 20px;font-weight: bold;margin: 0 0 20px;padding: 0 5px;}
+#register ul.signup { font-size:0; width:800px; margin:0 auto;}
+#register ul.signup li { font-size:14px; display:inline-block; width:34%;}
+#register ul.signup li:last-child { width:31.5%;}
+#register ul.signup li img { width:auto; height:315px;}
+#register h2 {font-size: 20px;font-weight: bold;border-left: 5px solid #f45934;padding: 0 5px; margin: 0 0 20px 0;}
+a.lik_agree {color:#066b74;}
+a.lik_agree:hover {color:#f45934!important; text-decoration:underline!important;}
+
+#register .contentsbox {background-color: #fff;border-radius: 8px;color: #333;margin-bottom: 35px;padding: 20px; min-height:550px;}
+#register .addressbox {width:100%; background-color:#FFF1A6; border-radius:6px; padding:20px 65px; margin:50px auto 20px;}
+#register .addressbox p { font-size:16px; font-weight:bold;}
+#register .addressbox input.address { width: 100%; padding:10px; border:1px solid #ccc; border-radius:4px; display:inline-block;}
+#register .addressbox input.btn_send { font-size:18px;padding: 5px 0;display:inline-block;width: 250px;border-style: none none solid; border-width:0 0 5px; margin-left:5px;}
+#register input.login_fb { border-radius:8px; color:#fff; font-size:20px; font-weight:bold; padding:10px 0; width:280px; margin:0 380px;}
+#register .addressbox a {color:#066b74;}
+#register .addressbox a:hover {color:#f45934!important; text-decoration:underline!important;}
+
+#register .message_sent { text-align:center;}
+#register .message_sent h2 {color:#C73338; font-size:32px; font-weight:bold; margin-bottom:15px;}
+#register .message_sent p { font-size:16px; line-height:1.4;}
+#register .message_sent .registemail { font-size:28px; font-weight:bold; margin:40px 0;}
+#register .message_sent .btn_email {border-radius:8px; width:280px; margin:0 auto;}
+#register .message_sent .btn_email a {color:#fff; font-size:20px; font-weight:bold;padding:10px 0;}
+#register .message_sent .note {margin-top:100px;}
+#register .note { text-align:left;}
+#register .note li { list-style-type:disc; margin:0 20px;}
+#register .note li a { color:#066b74;}
+#register .note li a:hover { text-decoration:underline; color:#f45934;}
+
+#register p.error, #register p.error span {color: #c63338;margin: 5px 0;}
+#register .addressbox p.small_12 {font-size: 12px; font-weight:normal;}
+
+#register .container02 { background-color:#fff;padding:20px 0; border-radius:8px; margin-bottom:20px;}
+#register .container02 h2 { margin-bottom:20px; padding-left:20px;}
+#register .container03 {width:690px; padding:10px 0;}
+#register .notes h2 { font-size:20px; font-weight:bold; margin-bottom:10px; border-left:5px solid #FF4E50; padding-left:5px;}
+#register .notes ul li { list-style-type:disc; line-height:1.6; margin-left:15px;}
+#register .notes ul li ul.example li { list-style-type:none; margin-left:0px;}
+#register .notes .contentsbox {background-color: #fff;border-radius: 8px;color: #333;margin-bottom: 35px;padding: 20px;width: 1220px;}
+#register .w840 { width:840px; margin:0 auto; }
+#register .w840 .btn_send.w250 { margin:0 295px!Important;}
+#register .phonenumber {background-color:#fefadd; padding:20px; margin:15px auto; width:840px; border-radius:8px;}
+#register .phonenumber dt {font-weight:bold; font-size:16px; color:#f35934; width:6em; display:inline-block;}
+#register .phonenumber dd {font-size:16px; display:inline-block;}
+#register .phonenumber .note { color: #c73338;font-size: 12px;}
+#register .form01 {border: 1px solid #888f9e;border-radius: 4px;width: 100%; padding: 5px; background-color:#fff; font-size:20px; font-weight:bold; margin-bottom:0;}
+
+#register .btn_center415 { margin:0 415px!Important;}
+#register .btn_send, #forfriends a .btn_top { font-size:16px; font-weight:bold; color:#fff; padding:15px 0; border-radius:8px;}
+#register .btn_send { margin:0 415px!Important;}
+#register .btn_send.w250.fr {margin:0 auto!Important;}
+#register a .btn_return { background-color:#999; font-size:16px; font-weight:bold; color:#fff; padding:15px 0; text-align:center; text-shadow:0 1px 1px #666; border-radius:8px; border-bottom:5px solid #666; margin-top:20px!Important;}
+#register a {text-decoration:none;}
+#register .w250 { width:250px; margin:0 auto;}
+#register .btn_g {font-size: 16px;font-weight: bold; color: #fff;padding: 15px 0;text-shadow: 0 1px 1px #666;border-radius: 8px; }
+#register .missed { background-color: #ccc!Important; border-color: #89909f!Important;color: #333!Important;}
+#register .done {color: #C73338;font-size: 21px;font-weight: bold;text-align: center;margin: 30px 0;}
+.btn_y a { padding:15px 0!Important; font-size:16px!Important; }
+
+#register .select_radio { margin-bottom:20px;}
+#register .select_radio input { display:none;}
+#register .select_radio label { line-height:2;}
+#register .select_radio label span {padding-left: 25px;position:relative;margin:0 20px 0 0;}
+#register .select_radio label span::before{content: "";display: block;position: absolute;top: 0;left: 0;width: 15px;height: 15px;border: 1px solid #89909f;border-radius: 50%;}
+#register .select_radio input[type="radio"]:checked + span::after{content: "";display: block;position: absolute;top: 3px;left: 3px;width: 11px;height: 11px;background: #89909f;border-radius: 50%; margin-bottom:20px;}
+
+.c_c1272d {color:#c1272d;}
+
+.returntotop { margin-bottom:20px; text-align:right; color:#ff4e50;}
+#fortxt { margin:15px 120px 20px;}
+#fortxt th {width:340px; padding:0 10px 0 15px; background-color:#FFF1A6; border-right:10px solid #fff; border-bottom:10px solid #fff; text-align:left; font-size:18px; font-weight:bold; vertical-align:middle;}
+#fortxt th span { font-size:12px; color:#fff; background-color:#c1272d; padding:4px; border-radius:3px; margin-left:5px;}
+#fortxt td {width:610px; padding:20px 10px 20px 25px; background-color:#eee; border-bottom:10px solid #fff; text-align:left;}
+#fortxt td#nickname_conf, #fortxt td#email_conf, #fortxt td#birth_conf, #fortxt td#sex_conf, #fortxt td#prefectures_conf {padding-left:25px;}
+
+#fortxt .bar_strength { float:left; width: calc(100% - 10em); border:1px solid #89909f; padding:2px; background-color:#fff;}
+#fortxt .bar_strength div { content:""; height:10px;}
+#fortxt .veryweak .bar_strength div {width:20%; background-color:#c73338;}
+#fortxt .weak .bar_strength div {width:40%; background-color:#ff9200;}
+#fortxt .good .bar_strength div {width:60%; background-color:#ffdb37;}
+#fortxt .strong .bar_strength div {width:80%; background-color:#066b74;}
+#fortxt .verystrong .bar_strength div {width:100%; background-color:#0669a2;}
+#fortxt .notyet .bar_strength div {width:0%; background-color:#0669a2;}
+#fortxt .strength { float:right; width:9em; font-size:13px;}
+#fortxt .veryweak .strength:after { color:#f45934; content:"弱"; font-size:13px; font-weight:bold;}
+#fortxt .weak .strength:after { color:#f45934; content:"弱"; font-size:13px; font-weight:bold;}
+#fortxt .good .strength:after { color:#f45934; content:"中"; font-size:13px; font-weight:bold;}
+#fortxt .strong .strength:after { color:#f45934; content:"強"; font-size:13px; font-weight:bold;}
+#fortxt .verystrong .strength:after { color:#f45934; content:"強"; font-size:13px; font-weight:bold;}
+#fortxt .notyet .strength:after { color:#f45934; content:""; font-size:13px; font-weight:bold;}
+#fortxt td .ornament { border:1px solid #ccc; border-radius:4px; width:560px; padding:5px;margin: 0; text-align:left;}
+#fortxt td .error, #fortxt td .error span {color:#C1272D; margin-top:5px; text-align:left; padding-left:5px;}
+#fortxt td .limit {margin-top:5px; padding:0 10px;}
+#fortxt td .limit span { font-size:16px; font-weight:bold;}
+#fortxt td .limit .word {float:left; color:#C1272D; font-weight:bold;}
+#fortxt td .limit .count {float:right;}
+#fortxt td .birth_y, #fortxt td .birth_m, #fortxt td .birth_d, #fortxt td .prefectures {border:1px solid #ccc; border-radius:4px; padding:5px;margin: 0; text-align:left; margin-right:.5em;}
+#fortxt td .birth_y, #fortxt td .prefectures {width:7em;}
+#fortxt td .birth_m {width:5em;}
+#fortxt td .birth_d {width:5em;}
+#fortxt td a, .note_reg a {color:#066b74;}
+#fortxt td a:hover, .note_reg a:hover {color:#f45934; text-decoration:underline;}
+#fortxt td .under20 { margin-top:5px;}
+#fortxt td .over20 { display:none;}
+#fortxt td input[type="radio"] {display: none;}
+#fortxt td label.btn_radio {display: inline-block;position: relative;cursor: pointer;margin-left: 20px;padding: 10px 20px;border-radius: 2px;font-size: 14px;text-align: center;line-height: 1;}
+#fortxt td label.btn_radio:before{position: absolute;content: "";top: 49%;left: -11px;width: 20px;height: 20px;margin-top: -10px;background: #fff;border-radius: 50%;border:1px solid #ccc;}
+#fortxt td input[type="radio"]:checked + label.btn_radio:after {position: absolute;content: "";top: 50%;left: -4px;width: 8px;height: 8px;margin-top: -4px;border-radius: 50%;background: #353535;}
+#fortxt td .stint {color: #989898;font-size: 12px;}
+
+
+#conf .form_btns { width:750px; margin:0 auto;}
+.note_reg {margin: 0 45px;}
+.note_reg .tit_agreement {font-size: 18px;font-weight: bold;margin-bottom: 10px;padding: 5px 10px;}
+.note_reg .agreement {line-height: 1.8;border: 1px solid #ccc;height: 180px;margin: 0 0 30px;overflow-y: scroll;padding: 0 10px; width:100%}
+.note_reg .trust {background-color: #ccc;display: block;margin: 0 10px 20px;padding: 15px 20px;vertical-align: middle;}
+.note_reg .legal {font-size: 12px;line-height: 2;margin: 0 10px 20px;}
+
+.addressbox .checkbox_mmz, .under20 .checkbox_u20 {width: 16px;height: 16px;border: 1px solid #888f9e;background-color: #fff;-moz-appearance: normal;
+appearance: normal;}
+
+.note_passcode {font-size:1.2em;}
+.note_s {color:#C1272D}
+/*-------------------------------------------------- for IE 9 */
+#fortxt td .birth_y, #fortxt td .birth_m, #fortxt td .birth_d { background-image:none\9;}

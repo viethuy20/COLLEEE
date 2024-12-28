@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.exchanges {
+  /*--------------------------------------------------------------------
+    title
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    select box
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    status
+  --------------------------------------------------------------------*/
+}
+.exchanges__ttl {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.exchanges__select__meta {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.exchanges__select__meta a {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.exchanges__select__meta a:hover {
+  text-decoration: none;
+}
+.exchanges__select__tab {
+  margin-top: 10px;
+  position: relative;
+}
+.exchanges__select__tab::after {
+  content: "";
+  border: 0;
+  border-right: 2px solid #f39800;
+  border-bottom: 2px solid #f39800;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  width: 7px;
+  height: 7px;
+}
+.exchanges__select__tab select {
+  color: #fb8c00;
+  background-color: #ffffff;
+  border: 1px solid #f39800;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.exchanges__select__tab select option {
+  padding: 0;
+}
+.exchanges__select__tab select::-ms-expand {
+  display: none;
+  /* デフォルトの矢印を無効(IE用) */
+}
+.exchanges__select__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.exchanges__select__list > li {
+  display: flex;
+  margin: 10px 0 0;
+  width: calc((100% - 10px) / 2);
+}
+.exchanges__select__list > li a {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  padding: 10px 15px 15px;
+  transition: 0.2s ease-in-out;
+}
+.exchanges__select__list > li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.exchanges__select__list__img {
+  text-align: center;
+}
+.exchanges__select__list__ttl {
+  color: #f39800;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  min-height: 2.8em;
+}
+.exchanges__select__list__ttl__meta {
+  color: #666666;
+  font-size: 1.2rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.exchanges__select__list__chart {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exchanges__select__list__chart dt,
+.exchanges__select__list__chart dd {
+  width: 100%;
+}
+.exchanges__select__list__chart dt {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+.exchanges__select__list__chart dd {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.exchanges__status {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 5px;
+}
+.exchanges__status__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.exchanges__status__list dt, .exchanges__status__list dd {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 10px 0;
+  border-bottom: 1px dotted #b9b9b9;
+  width: 50%;
+  white-space: nowrap;
+}
+.exchanges__status__list dd {
+  text-align: right;
+}
+.exchanges__status__list span {
+  font-size: 2.8rem;
+  margin-right: 5px;
+}
+.exchanges__status__btn {
+  margin: 20px auto 0;
+}
+.exchanges__status__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  transition: 0.2s ease-in-out;
+}
+
+#tab_bank,
+#tab_e-money,
+#tab_gift,
+#tab_other {
+  display: none;
+}
+/*# sourceMappingURL=exchanges.css.map */

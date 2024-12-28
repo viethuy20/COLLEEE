@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__box:first-of-type {
+  border-top: 6px solid #f39800;
+}
+.contents__box__ad {
+  font-size: 1.5rem;
+  margin-top: 20px !important;
+}
+/*--------------------------------------------------------------------
+  error contents
+--------------------------------------------------------------------*/
+.skyflag_error__title {
+  color: #242424;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.skyflag_error__txt {
+  font-size: 3.4rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 30px;
+}
+.skyflag_error__txt span {
+  color: #eb332f;
+  font-weight: bold;
+}
+.skyflag_error__txt__slim {
+  font-size: 1.5rem;
+  line-height: 1;
+  text-align: center;
+  margin-top: 30px;
+}
+.skyflag_error__qrcode {
+  line-height: 1;
+  text-align: center;
+  margin-top: 30px;
+}

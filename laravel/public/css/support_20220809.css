@@ -1,0 +1,254 @@
+@charset "UTF-8";
+
+.inquiry h1 {font-size:20px; font-weight:bold; padding:0 5px; margin: 20px 0 20px 0;}
+
+
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.inquiry {
+  width: 100%;
+}
+.inquiry .contentsbox {
+  box-shadow: 0 3px 0 0 #dedede;
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 20px 60px 60px;
+  width: 100%;
+}
+
+.inquiry .contentsbox table {
+  width: 100%;
+}
+.inquiry .contentsbox table tr {
+  border-bottom: 1px dotted #b9b9b9;
+}
+.inquiry .contentsbox table tr th, .inquiry .contentsbox table tr td {
+  padding: 30px 0;
+  vertical-align: top;
+}
+.inquiry .contentsbox table tr th {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  width: 33.3333333334%;
+}
+.inquiry .contentsbox table tr th span.necessary {
+  color: #ffffff;
+  background-color: #fb8c00;
+  font-size: 1.2rem;
+  margin: 0 0 0 5px;
+  padding: 2px 10px;
+  vertical-align: middle;
+}
+.inquiry .contentsbox table tr td {
+  font-size: 1.5rem;
+}
+.inquiry .contentsbox .date .date input[type=text] {
+  text-align: center;
+  margin-right: 5px;
+  padding: 15px 0;
+  width: 8rem;
+}
+.inquiry .contentsbox table input[type=radio] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.inquiry .contentsbox table input[type=radio]:checked {
+  background: #fb8c00;
+}
+.inquiry .contentsbox input[type=text]{
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.inquiry .contentsbox .inquiry_textarea {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.inquiry .contentsbox .inquiry_detail textarea {
+  height: 172px;
+}
+
+/*--------------------------------------------------------------------
+  note_inquiry
+--------------------------------------------------------------------*/
+.note_inquiry dt {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.note_inquiry dd {
+  font-size: 1.5rem;
+}
+
+.note_inquiry div p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.note_inquiry div p a.lnk_external {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.note_inquiry div p.p_center {
+  text-align: center;
+}
+.note_inquiry div p a.lnk_external::after {
+  content: url(../images/inquiries/ico_external.svg);
+  display: inline-block;
+  line-height: 0;
+  margin: 0 3px;
+  position: relative;
+  top: 1px;
+  width: 13px;
+  height: 13px;
+}
+.note_inquiry div p input[type=checkbox] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.note_inquiry div p input[type=checkbox]:checked:before {
+  content: "✔";
+  color: #f39800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+
+/*--------------------------------------------------------------------
+  btn_more
+--------------------------------------------------------------------*/
+.inquiry .contentsbox .btn_more {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 60px auto 0;
+  padding: 0;
+  width: 296px;
+  transition: 0.2s ease-in-out;
+}
+.inquiry .contentsbox .btn_more:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  btn_cancel
+--------------------------------------------------------------------*/
+.inquiry .contentsbox .btn_cancel {
+  display: block;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 rgb(102 102 102 / 40%);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 40px auto 0;
+  padding: 0;
+  width: 296px;
+  transition: 0.2s ease-in-out;
+}
+.inquiry .contentsbox .btn_cancel:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+■storeページ
+--------------------------------------------------------------------*/
+.inquiry .contentsbox .store_inquiry p {
+  font-size: 1.5rem;
+  margin: 0px auto 20px;
+}
+.inquiry .contentsbox .store_inquiry p.btn_top {
+  font-size: 1.5rem;
+}
+.inquiry .contentsbox .store_inquiry p.btn_top a {
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------------
+  slide show
+--------------------------------------------------------------------*/
+.top__fv .swiper-container.swiper1 .swiper-wrapper .swiper-slide {
+  border-bottom: 3px solid #dedede;
+  box-sizing: content-box;
+  width: 640px;
+  height: 400px;
+}
+.top__fv .swiper-container.swiper1 .swiper-wrapper .swiper-slide .slide-img a {
+  transition: 0.2s ease-in-out;
+}
+.top__fv .swiper-container.swiper1 .swiper-wrapper .swiper-slide .slide-img a:hover {
+  opacity: 0.7;
+}
+.top__fv .swiper-container.swiper1 .swiper-wrapper .swiper-slide-next {
+  opacity: 0.8;
+}
+.top__fv .swiper-container.swiper1 .swiper-wrapper .swiper-slide-prev {
+  opacity: 0.8;
+}
+.top__fv .swiper-pagination1 {
+  font-size: 0;
+  text-align: center;
+  position: relative;
+}
+.top__fv .swiper-pagination1 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  opacity: 1;
+  margin: 16px 5px 0;
+}
+.top__fv .swiper-pagination1 .swiper-pagination-bullet-active {
+  background: #e44f6f;
+}

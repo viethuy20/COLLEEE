@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+#register h1 {margin:0 0 20px; padding:0;}
+#register h1.simple {border-left: 5px solid #f45934;font-size: 20px;font-weight: bold;margin: 0 0 20px;padding: 0 5px;}
+
+#register .contentsbox {background-color: #fff;border-radius: 8px;color: #333;margin-bottom: 35px;padding: 20px; min-height:550px;}
+#register .addressbox {width:950px; background-color:#FFF1A6; border-radius:6px; padding:20px 65px; margin:50px auto 20px;}
+#register .addressbox p { font-size:18px; font-weight:bold;}
+#register .addressbox input.address { width: 560px; padding:10px; border:1px solid #ccc; border-radius:4px; display:inline-block;}
+#register .addressbox input.btn_send { font-size:18px;padding: 5px 0;display:inline-block;width: 250px;border-style: none none solid; border-width:0 0 5px; margin-left:5px;}
+#register a .login_fb { background-color:#f45934; border-bottom:5px solid #c73338; border-radius:8px; color:#fff; font-size:20px; font-weight:bold; padding:5px 0; text-align:center; width:280px; margin:0 auto;}
+
+#register .message_sent { text-align:center;}
+#register .message_sent h2 {color:#C73338; font-size:32px; font-weight:bold; margin-bottom:15px;}
+#register .message_sent p { font-size:16px; line-height:1.4;}
+#register .message_sent .registemail { font-size:28px; font-weight:bold; margin:40px 0;}
+#register .message_sent a .btn_email {background-color:#f45934; border-bottom:5px solid #c73338; border-radius:8px; color:#fff; font-size:20px; font-weight:bold; padding:10px 0; text-align:center; width:280px; margin:0 auto;}
+#register .message_sent ul { text-align:left; margin-top:100px;}
+#register .message_sent ul li a { color:#066b74;}
+#register .message_sent ul li a:hover { text-decoration:underline; color:#f45934;}
+
+@media screen and (min-device-height: 480px) {
+   /* 480px以上の場合 */
+#register .contentsbox { margin-bottom:150px;} 
+}
+
+#register .container02 { background-color:#fff;padding:20px 0; border-radius:8px; margin-bottom:20px;}
+#register .container02 h2 { margin-bottom:20px; padding-left:20px;}
+#register .container03 {width:690px; padding:10px 0;}
+#register .notes h2 { font-size:20px; font-weight:bold; margin-bottom:10px; border-left:5px solid #FF4E50; padding-left:5px;}
+#register .notes ul li { list-style-type:disc; line-height:1.6; margin-left:15px;}
+#register .notes ul li ul.example li { list-style-type:none; margin-left:0px;}
+#register .notes .contentsbox {background-color: #fff;border-radius: 8px;color: #333;margin-bottom: 35px;padding: 20px;width: 1220px;}
+
+
+
+#register .btn_send, #forfriends a .btn_top { background-color:#f45934; font-size:20px; font-weight:bold; color:#fff; padding:15px 0; text-align:center; text-shadow:0 1px 1px #c73338; border-radius:8px; border-bottom:5px solid #c73338;}
+#register a .btn_return { background-color:#999; font-size:20px; font-weight:bold; color:#fff; padding:15px 0; text-align:center; text-shadow:0 1px 1px #666; border-radius:8px; border-bottom:5px solid #666; margin-top:20px!Important;}
+#register a {text-decoration:none;}
+#register .w250 { width:250px; margin:0 auto;}
+
+.c_c1272d {color:#c1272d;}
+
+.returntotop { margin-bottom:20px; text-align:right; color:#ff4e50;}
+#fortxt { margin:15px 120px 20px;}
+#fortxt th {width:340px; padding:0 10px 0 15px; background-color:#FFF1A6; border-right:10px solid #fff; border-bottom:10px solid #fff; text-align:left; font-size:18px; font-weight:bold; vertical-align:middle;}
+#fortxt th span { font-size:12px; color:#fff; background-color:#c1272d; padding:4px; border-radius:3px; margin-left:5px;}
+#fortxt td {width:610px; padding:20px 10px 20px 25px; background-color:#eee; border-bottom:10px solid #fff; text-align:left;}
+#fortxt td#nickname_conf, #fortxt td#email_conf, #fortxt td#birth_conf, #fortxt td#sex_conf, #fortxt td#prefectures_conf {padding-left:25px;}
+#fortxt td .ornament { border:1px solid #ccc; border-radius:4px; width:560px; padding:5px;margin: 0; text-align:left;}
+#fortxt td .error {color:#C1272D; font-weight:bold; margin-top:5px; text-align:left; padding-left:10px;}
+#fortxt td .limit {margin-top:5px; padding:0 10px;}
+#fortxt td .limit span { font-size:16px; font-weight:bold;}
+#fortxt td .limit .word {float:left; color:#C1272D; font-weight:bold;}
+#fortxt td .limit .count {float:right;}
+#fortxt td .birth_y, #fortxt td .birth_m, #fortxt td .birth_d, #fortxt td .prefectures {border:1px solid #ccc; border-radius:4px; padding:5px;margin: 0; text-align:left; margin-right:.5em;}
+#fortxt td .birth_y, #fortxt td .prefectures {width:7em;}
+#fortxt td .birth_m {width:5em;}
+#fortxt td .birth_d {width:5em;}
+
+#fortxt td input[type="radio"] {display: none;}
+#fortxt td label.btn_radio {display: inline-block;position: relative;cursor: pointer;margin-left: 20px;padding: 10px 20px;border-radius: 2px;font-size: 14px;text-align: center;line-height: 1;}
+#fortxt td label.btn_radio:before{position: absolute;content: "";top: 49%;left: -11px;width: 20px;height: 20px;margin-top: -10px;background: #fff;border-radius: 50%;border:1px solid #ccc;}
+#fortxt td input[type="radio"]:checked + label.btn_radio:after {position: absolute;content: "";top: 50%;left: -4px;width: 8px;height: 8px;margin-top: -4px;border-radius: 50%;background: #353535;}
+
+
+
+.note_reg {margin: 0 45px;}
+.note_reg .tit_agreement {font-size: 18px;font-weight: bold;margin-bottom: 10px;padding: 5px 10px;}
+.note_reg #agreement {line-height: 1.8;border: 1px solid #ccc;height: 180px;margin: 0 10px 30px;overflow-y: scroll;padding: 0 10px;}
+.note_reg .trust {background-color: #ccc;display: block;margin: 0 10px 20px;padding: 15px 20px;vertical-align: middle;}
+.note_reg .legal {font-size: 12px;line-height: 2;margin: 0 10px 20px;}
+/*-------------------------------------------------- for IE 9 */
+#fortxt td .birth_y, #fortxt td .birth_m, #fortxt td .birth_d { background-image:none\9;}
+
+
+
+.exam p, .exam dd, #ui-tab_txt .put_code p, #ui-tab_txt .put_code dd { margin-bottom:1.4em;}
+#ui-tab_txt .exam {	border:1px solid #fbb03b;padding: 0;width:700px;border-radius:4px;padding:10px;margin:0 auto 20px; text-align:left;}
+#ui-tab_txt .put_code {background-color: #eee;border: 1px solid #ccc;border-radius: 4px;font-size: 14px;margin: 0 auto 20px;padding: 10px;width: 700px; /*height:90px;*/ overflow:hidden; text-align:left;}
+#ui-tab_txt .exam_h {	border:1px solid #fbb03b;padding: 0;width:700px;border-radius:4px;margin:0 auto 20px;}
+
+#fragment-3-1 p, #fragment-3-2 p, #fragment-3-3 p, #fragment-3-4 p, #conf_txt p { background-color:#FFF1A6; border-bottom:1px solid #ccc; padding:10px; border-radius:4px 4px 0 0; text-align:left;}
+#fragment-3-1 p span, #fragment-3-2 p span, #fragment-3-3 p span, #fragment-3-4 p span, #conf_txt p span {color:#0071bc; margin-right:0.8em; font-weight:bold;}
+#fragment-3-1 .temp, #fragment-3-2 .temp, #fragment-3-3 .temp, #fragment-3-4 .temp, #conf_txt .temp { padding:10px;}
+#fragment-3-1 .temp p, #fragment-3-2 .temp p, #fragment-3-3 .temp p, #fragment-3-4 .temp p, #conf_txt .temp p {margin-bottom:1.4em; border-bottom:0; background-color:#fff; padding:0; font-weight:normal;}
+#conf_txt {background: #fff none repeat scroll 0 0;border: 1px solid #ccc;border-radius: 4px;padding: 0;width: 560px;margin: 0 10px;}
+.conf_note { margin:15px 135px 0;}
+#comp_note { padding:40px 0; text-align:center; font-size:32px; font-weight:bold; color:#cc0000;}
+
+#img_blog {margin:0 17px 30px;}
+.blah {width:200px; height:auto; margin-top:10px;}
+#app_status { width:950px; padding:30px 75px; margin:20px 135px 30px; background-color:#FFF1A6; border-radius:6px; font-size:12px; color:#333333;}
+#app_status input { width:800px; padding:10px 15px; background-color:#fff; border:1px solid #b3b3b3; border-radius:4px; margin-bottom:10px}
+#app_status .e_message {color:#C73338; font-size:16px; font-weight:bold; margin-top:30px;}
+#app_status .sent {color:#000; font-size:16px; text-align:center; line-height:1.6;}
+#app_status .sent span {color:#cc0000; font-size:32px; font-weight:bold;}
+
+#not_login {margin:50px auto 30px; text-align:center;color:#000; font-size:14px; line-height:1.6;}
+#not_login span {color:#cc0000; font-size:32px; font-weight:bold;}

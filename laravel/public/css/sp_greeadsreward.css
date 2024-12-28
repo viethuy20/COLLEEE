@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents {
+  width: 100%;
+  max-width: 980px;
+  margin-bottom: 40px;
+}
+.contents__wrap .contents__box {
+  padding: 10px 30px 30px 30px;;
+  width: 100%;
+}
+.contents__wrap .inner:first-of-type .contents__box {
+  border: 1px solid #f39800;
+}
+
+.skyflag__nav {
+  color: #f39800;
+  padding: 15px 0px;
+}
+
+.greeadsreward__about__btn {
+  margin: 30px auto 0;
+}
+.greeadsreward__about__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.skyflag__contact ul {
+  display: flex;
+  gap: 14px;
+}
+.skyflag__contact ul li {
+  width: calc(100% - 7px);
+}
+.skyflag__notice h2:before {
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(/images/skyflag/caution.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 7px;
+}
+
+.skyflag__ttl {
+  font-size: 3.2rem;
+}
+
+a.textlink {
+  color: #fb8c00;
+}

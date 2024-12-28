@@ -1,0 +1,5 @@
+/var/log/nginx/*
+/var/log/batch/*
+/fancrew/*
+/work/*
+/nbproject

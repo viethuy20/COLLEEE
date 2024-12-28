@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<sitemap>
+        <loc>https://colleee.net/article/wp-content/themes/article/sitemap_base.xml</loc>
+    </sitemap>
+
+	<sitemap>
+        <loc>https://colleee.net/sitemap_programs.xml</loc>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://colleee.net/sitemap_questions.xml</loc>
+    </sitemap>
+</sitemapindex>

@@ -1,0 +1,679 @@
+@charset "UTF-8";
+.exchanges {
+  /*--------------------------------------------------------------------
+    title
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    select box
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    status
+  --------------------------------------------------------------------*/
+}
+.exchanges__ttl {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.exchanges__select__meta {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.exchanges__select__meta a {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.exchanges__select__meta a:hover {
+  text-decoration: none;
+}
+.exchanges__select__tab {
+  margin-top: 10px;
+  position: relative;
+}
+.exchanges__select__tab::after {
+  content: "";
+  border: 0;
+  border-right: 2px solid #f39800;
+  border-bottom: 2px solid #f39800;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  width: 7px;
+  height: 7px;
+}
+.exchanges__select__tab select {
+  color: #fb8c00;
+  background-color: #ffffff;
+  border: 1px solid #f39800;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.exchanges__select__tab select option {
+  padding: 0;
+}
+.exchanges__select__tab select::-ms-expand {
+  display: none;
+  /* デフォルトの矢印を無効(IE用) */
+}
+.exchanges__select__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.exchanges__select__list > li {
+  display: flex;
+  margin: 10px 0 0;
+  width: calc((100% - 10px) / 2);
+}
+.exchanges__select__list > li a {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  padding: 10px 15px 15px;
+  transition: 0.2s ease-in-out;
+}
+.exchanges__select__list > li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.exchanges__select__list__img {
+  text-align: center;
+}
+.exchanges__select__list__ttl {
+  color: #f39800;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  min-height: 2.8em;
+}
+.exchanges__select__list__ttl__meta {
+  color: #666666;
+  font-size: 1.2rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.exchanges__select__list__chart {
+  display: flex;
+  flex-wrap: wrap;
+}
+.exchanges__select__list__chart dt,
+.exchanges__select__list__chart dd {
+  width: 100%;
+}
+.exchanges__select__list__chart dt {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+.exchanges__select__list__chart dd {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 5px;
+}
+.exchanges__status {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 15px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 5px;
+}
+.exchanges__status__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.exchanges__status__list dt, .exchanges__status__list dd {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 10px 0;
+  border-bottom: 1px dotted #b9b9b9;
+  width: 50%;
+  white-space: nowrap;
+}
+.exchanges__status__list dd {
+  text-align: right;
+}
+.exchanges__status__list span {
+  font-size: 2.4rem;
+  margin-right: 5px;
+}
+.exchanges__poss__attention__ttl {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+.exchanges__status__btn {
+  margin: 20px auto 0;
+}
+.exchanges__status__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  transition: 0.2s ease-in-out;
+}
+
+#tab_bank,
+#tab_e-money,
+#tab_gift,
+#tab_other {
+  display: none;
+}
+/*# sourceMappingURL=exchanges.css.map */
+
+* {font-family: Arial,Verdana,sans-serif; font-size:14px; line-height:1.6;}
+.contents__wrap {  margin:10px 0 20px;box-sizing:border-box;}
+section.contents__wrap {min-height: calc(100vh - 308px);}
+.contents__wrap h1 {
+  font-size:18px;
+  font-weight:bold;
+  margin-top: 20px !important;
+  width: 100%;
+  padding: 0 5%;
+  position: relative;
+  z-index: 1;
+}
+
+.selectedbank h2 {font-size:20px; font-weight:bold; padding:0 5px; margin: 20px 0 10px 0;}
+
+.major_bank, .search_bank, .list_bank, .selectedbank {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 20px 5%;
+  border: 1px solid #e2e2e2;
+  font-size: 1.8rem;
+  margin: 15px;
+}
+.major_bank li {
+  background-color: #f39800;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  padding: 10px 30px 10px 10px;
+  margin-bottom:10px;
+}
+.major_bank li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.major_bank ul li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.major_bank ul li a::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 5rem;
+  margin: 9px 0;
+}
+
+.selectedbank { margin-bottom:5px;}
+.selectedbank .bankname { width:100%;border: 1px solid #e2e2e2;background-color: #f9f9f9;padding:10px;border-radius: 4px; font-size:16px;}
+.selectedbank .fee { font-size:13px; margin-top:5px;}
+.selectedbank .fee:before { content:"手数料：";}
+.selectedbank p a {color:#066b74; display:inline-block; font-weight:bold; text-decoration:underline;}
+.selectedbank .caution dt { font-weight:bold; margin-bottom:5px;}
+.selectedbank .caution dt span {color:#f45934;}
+.selectedbank .caution dd { font-size:11px;}
+.selectedbank .caution dd li { list-style-type:disc; margin-left:15px;font-size:11px;}
+.selectedbank .select_account { font-size:0;}
+.selectedbank .select_account li { border-radius:6px; display:inline-block; padding:10px 0; text-align:center; width:48%;}
+.selectedbank .select_account li a {font-size:16px; font-weight:bold;}
+.selectedbank .select_account li:first-child { border-bottom:4px solid #c7b505; margin-right:4%; background-color:#ffdb37;}
+.selectedbank .select_account li:last-child { border-bottom:4px solid #c73338; background-color:#f45934}
+.selectedbank .select_account li:last-child a {color:#fff;}
+.selectedbank .note_account { color:#c73338; font-size:13px;}
+
+.list_bank ul {border-top: 1px dotted #888f9e; margin-bottom:20px;}
+.list_bank li {border-bottom: 1px dotted #888f9e;margin: 0;padding: 10px 30px 10px 15px;background-image: url(../images/ico-r-border.svg);background-position: 99% 40%;background-repeat: no-repeat;background-size: 15px auto;}
+.list_bank li a { font-weight: 700; }
+
+.search_bank .tosearch_bank {width: 100%;height: 35px;border-radius: 4px;border: 1px solid #89909f;padding: 5px; margin-bottom:10px;}
+.search_bank .search {color: #fff;border-width: 0 0 5px;border-style: solid;border-color: #c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 10px 15px 10px 15px;margin: 5px 19% 15px;}
+
+.btn_y a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.btn_y a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  width: 220px;
+  margin: 30px auto 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+.btn_y a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+/*--------------------------------------------------------------------
+  banks form
+--------------------------------------------------------------------*/
+.banks__form input[type=radio] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.banks__form input[type=radio]:checked {
+  background: #fb8c00;
+}
+.banks__form input[type=checkbox] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.banks__form input[type=checkbox]:checked:before {
+  content: "✔";
+  color: #f39800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+.banks__form input[type=text],
+.banks__form textarea {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.banks__form table {
+  width: 100%;
+}
+.banks__form table tr {
+  border-bottom: 1px dotted #b9b9b9;
+}
+.banks__form table tr th,
+.banks__form table tr td {
+  display: block;
+  width: 100%;
+}
+.banks__form table tr th {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 20px 0 10px;
+  width: 100%;
+}
+.banks__form table tr th span {
+  vertical-align: middle;
+}
+.banks__form table tr th span.necessary::after {
+  content: "必須";
+  color: #ffffff;
+  background-color: #fb8c00;
+  font-size: 1.1rem;
+  margin: 0 0 0 5px;
+  padding: 2px 10px;
+  vertical-align: middle;
+}
+.banks__form table tr td {
+  font-size: 1.5rem;
+  padding: 0 0 20px;
+  width: 100%;
+}
+.banks__form__pw {
+  font-size: 1.5rem;
+}
+.banks__form__pw .bar {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 2px;
+  width: 100%;
+}
+.banks__form__pw .bar > div {
+  border-radius: 4px;
+  height: 24px;
+}
+.banks__form__pw .bar.veryweak > div {
+  background-color: #eb332f;
+  width: 20%;
+}
+.banks__form__pw .bar.weak > div {
+  background-color: #f39800;
+  width: 40%;
+}
+.banks__form__pw .bar.good > div {
+  background-color: #edd900;
+  width: 60%;
+}
+.banks__form__pw .bar.strong > div {
+  background-color: #29b3b1;
+  width: 80%;
+}
+.banks__form__pw .bar.verystrong > div {
+  background-color: #0c5fad;
+  width: 100%;
+}
+.banks__form__pw .txt {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.banks__form__pw .txt.veryweak::after, .banks__form__pw .txt.weak::after {
+  content: "弱";
+  color: #eb332f;
+  font-weight: 700;
+}
+.banks__form__pw .txt.good::after {
+  content: "中";
+  color: #eb332f;
+  font-weight: 700;
+}
+.banks__form__pw .txt.strong::after, .banks__form__pw .txt.verystrong::after {
+  content: "強";
+  color: #eb332f;
+  font-weight: 700;
+}
+.banks__form__select {
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banks__form__select__inner {
+  position: relative;
+  margin-right: 0.25em;
+}
+.banks__form__select__inner:nth-child(n+2) {
+  margin-left: 0.5em;
+  width: 4em;
+}
+.banks__form__select__inner:nth-child(n+2) select {
+  width: 4em;
+}
+.banks__form__select__inner::after {
+  content: "";
+  border: 0;
+  border-right: 2px solid #f39800;
+  border-bottom: 2px solid #f39800;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: -3px;
+  right: 10px;
+  bottom: 0;
+  margin: auto;
+  width: 6px;
+  height: 6px;
+}
+.banks__form__select__inner select {
+  color: #666666;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.banks__form__select__inner select option {
+  padding: 0;
+}
+.banks__form__select__inner select::-ms-expand {
+  display: none;
+  /* デフォルトの矢印を無効(IE用) */
+}
+.banks__form__notes {
+  margin-top: 30px;
+}
+.banks__form__notes__box {
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  margin-top: 15px;
+  padding: 15px;
+  height: 172px;
+  overflow-y: scroll;
+}
+.banks__form__notes__box p {
+  font-size: 1.5rem;
+}
+.banks__form__privacy {
+  margin-top: 20px;
+}
+.banks__form__privacy p {
+  font-size: 1.5rem;
+}
+.banks__form__btn {
+  margin: 40px auto 20px;
+}
+.banks__form__btn button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  transition: 0.2s ease-in-out;
+}
+.banks__form__btn button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.banks__form .putted_area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.banks__form .putted_area .subtraction span { color:#f45934; font-weight:bold;}
+.banks__form .putted_area .total { display: flex; justify-content: space-between; border-radius:6px; padding:10px; width:100%;background: #f9f9f9;}
+.banks__form .putted_area .total .amount { color:#f45934; font-weight:bold;}
+.banks__form .putted_area .total .amount:after { content:"円";}
+.banks__change__btn__pink {
+  margin-top: 20px;
+}
+.banks__change__btn__pink button,
+.banks__change__btn__pink a {
+  display: block;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  width: 220px;
+  margin: 0 auto;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+.banks__change__btn__pink button:hover, 
+.banks__change__btn__pink a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.selectedbank .contents__center__box .contents__center__box__main {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  padding: 10px 0px;  
+  text-align: center;
+  line-height: 1.2;
+}
+.selectedbank .contents__center__box .contents__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+.selectedbank .contents__center__box .contents__center__box__main > p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.selectedbank .contents__center__box .contents__center__box__text {
+  margin-top: 20px;
+}
+.selectedbank .contents__center__box .contents__center__box__text__custom {
+  text-align: center;
+}
+.selectedbank .contents__center__box .contents__center__box__text p{
+  font-size: 1.5rem;
+}
+.trademark li { list-style: none !important; text-indent: -1em;}
+.trademark li::before{ content: "※"; }
+.trademark .no-before { text-indent: unset; margin-left: 0px !important; }
+.trademark .no-before::before{ content: none; }
+strong {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
+}
+.trademark li { list-style: none !important; text-indent: -1em;}
+.trademark li::before{ content: "※"; }
+.trademark .no-before { text-indent: unset; margin-left: 0px !important; }
+.trademark .no-before::before{ content: none; }
+.eins {
+  color: #666666;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 10px;
+}
+.banks__auth__btn__pink {
+  margin-top: 20px;
+}
+.banks__auth__btn__pink {
+  display: block;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  width: 220px;
+  margin: 0 auto;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+  clear: both;
+}
+.banks__auth__btn__pink:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+/* テキストリンク */
+.text-link a {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.text-link a:hover {
+  text-decoration: none;
+}
+
+.text-link a.external {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.text-link a.external::after {
+  content: url(/images/inquiries/ico_external.svg);
+  display: inline-block;
+  line-height: 0;
+  margin: 0 3px;
+  position: relative;
+  top: 1px;
+  width: 13px;
+  height: 13px;
+  text-indent: 0 !important;
+}
+.text-link a.external:hover {
+  text-decoration: none;
+}
+
+.text-link .icon-arrowr {
+  color: #fb8c00;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+.text-link .icon-arrowr::before {
+  content: "▶︎";
+}
+
+/*# sourceMappingURL=entries_create.css.map */
+.clearboth { clear: both !important; }

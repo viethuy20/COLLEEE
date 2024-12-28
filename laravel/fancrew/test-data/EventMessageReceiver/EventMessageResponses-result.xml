@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Result>
+  <Header>
+    <Status code="0" trackingCode="test1"></Status>
+  </Header>
+  <Data>
+    <EventMessageResponses>
+      <EventMessageResponse id="5" success="true"></EventMessageResponse>
+      <EventMessageResponse id="6" success="false" error="あいう" retryRequested="true"></EventMessageResponse>
+    </EventMessageResponses>
+  </Data>
+</Result>

@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://colleee.net/sitemap_index.xml
+Sitemap: https://colleee.net/article/index.php?xml_sitemap=params=
+Sitemap: https://colleee.net/support/index.php?xml_sitemap=params=

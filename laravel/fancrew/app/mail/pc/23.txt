@@ -1,0 +1,3 @@
+Subject: [ƒtƒ@ƒ“‚­‚é] ${title}
+
+${content}

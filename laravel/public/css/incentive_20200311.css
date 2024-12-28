@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+.h1plus {margin-bottom:35px;}
+.h1plus h1 {}
+.h1plus ul {float:right; margin-bottom:20px;}
+.h1plus ul a { margin-right:5px;}
+.h1plus ul a:last-child { margin-right:0;}
+.h1plus li {display:inline-block; width:140px; height:120px; border-radius:6px; background-color:#FF4E50; border-bottom:4px solid #C73338; color:#fff; font-size:24px; font-weight:bold; text-align:center; vertical-align: middle; padding:20px 0;}
+
+#game .gamelist {margin-bottom:35px; font-size:0;}
+#game .gamelist li { width:365px; border-radius:8px;display:inline-block; /*padding:20px;*/ margin-bottom:20px; margin-right:20px; vertical-align:top; box-sizing:border-box;}
+#game .gamelist li:nth-child(even) { margin-right:0;}
+#game .gamelist li h3 { font-size:18px; margin-bottom:10px;}
+#game .gamelist li h3 span { color:#fff; background-color:#00B764; border-radius:4px; padding:4px; margin-left:5px;}
+#game .gamelist li img {width:200px; height:auto; float:left;}
+#game .gamelist li .letsplay { float:right; width:110px; margin-top:30px;}
+#game .gamelist li .letsplay a { color:#fff; font-size:16px; font-weight:bold; padding:10px 0;}
+
+#game .gamelist li dl {margin-top:10px}
+#game .gamelist li dt {width:5.5em; border-radius:4px; border:1px solid #FF8200; text-align:center; padding:2px; float:left; margin:5px 0;}
+#game .gamelist li dd { padding:2px 2px 2px 5px; float:left;  margin:5px 5px 5px 0;}
+#game .gamelist li .txt_game { height:112px;}
+#game .gamelist li .txt_game span { font-size:12px; color:#C73338;}
+
+#game h2, #click h2 {border-left: 5px solid #f45934;font-size: 20px;font-weight: bold;margin-bottom: 10px;padding-left: 5px;}
+#click .clicklist { margin-top:20px;}
+#click .clicklist li {border-radius: 8px;display: inline-block;margin-bottom: 20px;padding: 20px;width:100%;}
+#click .clicklist li dt { font-size:18px;}
+#click .clicklist li dd { text-align:center; margin-top:10px;}
+#click .clicklist li dd img:first-child { width:468px; height:60px;}
+#click .clicklist li dt span { font-size:18px; font-weight:bold; background-color:#f45934; color:#fff; padding:2px;}
+#click .clicklist li.PR dt {font-size:18px; float:none;}
+#click .clicklist li.PR dd { float:none;}
+#click .clicklist li.bnr {}
+#click .clicklist li.bnr .notget { font-size:12px; text-align:right;}
+
+#type_juku { width:970px; margin:0 auto;}
+#type_juku .login, #type_juku .notlogin { width:970px;}
+#type_juku .notlogin img { width:100%; height:auto;}
+#information {border-radius: 5px;width: 970px; padding: 15px 20px 15px 15px; background: #eee;margin: 15px auto;}
+#information h2 { font-size:24px;}
+#information ul {margin:0; padding:0;}
+#information ul li { list-style:none; text-indent:-1em; padding:0 0 0.3em 2em; font-size:90%;}
+.red {color: #ff3333;font-weight: bold;}
+#event { border-radius:5px; padding:15px 0; background:#FCFCD5; margin:15px 0; text-align:center;}
+#event p {width: 100%;padding: 0px 80px;text-align: left;}
+
+/*--------------------------------------recipe*/
+#recipe { margin-bottom:35px;}
+#recipe .listview { margin-bottom:25px;}
+#recipe .contentsbox {margin-bottom:10px}
+#recipe .eachrecipe_l {max-height:170px; overflow:hidden;}
+#recipe .eachrecipe_l img {box-sizing: border-box;float: left;height: auto;width: 250px;}
+#recipe .eachrecipe_l dl { float:right;width: 440px;}
+#recipe .eachrecipe_l .heading { font-size:24px; font-weight:bold; margin-bottom:10px;}
+#recipe .eachrecipe_l dl dd { display:inline; margin-right:1em;}
+#recipe .eachrecipe_l dl dd span {color: #f45934;}
+#recipe .eachrecipe_l dl dd.date { color:#979797;}
+#recipe .more {background-color: #f45934;border-bottom: 4px solid #c73338;border-radius: 8px;color: #fff;font-size: 14px;font-weight: bold;margin:0 auto 20px;padding: 10px 0;text-align: center;width: 150px; }
+
+/*--------------------------------------app_gacha*/
+.app_gacha dt {width:250px; height:auto; float:left;}
+.app_gacha dt img {width:100%;}
+.app_gacha dd {padding-left: 270px;font-size: 20px; font-weight: bold;}
+.app_gacha dd img {height:47px; width:auto; margin:10px 10px 10px 0;}
+

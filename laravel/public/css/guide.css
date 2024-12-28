@@ -1,0 +1,284 @@
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__wrap .contents {
+  width: 100%;
+  max-width: 980px;
+  margin-bottom: 40px;
+}
+.contents__wrap .contents__box {
+  padding: 30px;
+  width: 100%;
+}
+.contents__wrap .contents__box.beginer {
+  padding: 30px;
+  width: 100%;
+}
+.contents__wrap .contents__box.stop {
+  padding: 30px 90px 60px;
+  width: 100%;
+}
+
+.guide__ttl {
+  font-size: 3.2rem;
+}
+
+.guide__nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.guide__nav ul li {
+  width: 32.67%;
+}
+.guide__nav ul li a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+.guide__nav ul li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+.guide__step {
+  margin-top: 20px;
+}
+.guide__step ul {
+  display: flex;
+  justify-content: space-between;
+}
+.guide__step ul li {
+  width: 32.67%;
+}
+.guide__step ul li .num {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.guide__step ul li .num span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.guide__step ul li .image {
+  margin-top: 5px;
+}
+.guide__step__img {
+  text-align: center;
+  margin-top: 60px;
+  position: relative;
+}
+.guide__step__img::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  border-right: solid 4px #dedede;
+  border-bottom: solid 4px #dedede;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  top: -35px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.guide__step__img img {
+  width: 66.67%;
+}
+
+.guide__example {
+  margin-top: 20px;
+}
+.guide__example ul {
+  display: flex;
+  justify-content: space-between;
+}
+.guide__example ul li {
+  width: 16%;
+}
+
+.guide__schedule {
+  display: flex;
+  justify-content: space-between;
+}
+.guide__schedule__imege {
+  width: 40%;
+}
+.guide__schedule__content {
+  width: 60%;
+  padding-left: 30px;
+}
+.guide__schedule__content ul li {
+  margin-top: 20px;
+}
+.guide__schedule__content ul li .ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.guide__schedule__content ul li .ttl span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.guide__howto {
+  margin-top: 20px;
+}
+.guide__howto ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.guide__howto ul li {
+  margin-top: 40px;
+  width: 48.75%;
+}
+.guide__howto ul li:first-child {
+  margin-top: 0;
+  width: 100%;
+}
+.guide__howto ul li:first-child .txt {
+  min-height: unset;
+}
+.guide__howto ul li .ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.guide__howto ul li .ttl span {
+  color: #ffffff;
+  background-color: #f39800;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.guide__howto ul li .txt {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  min-height: 5.1rem;
+}
+.guide__howto ul li .image {
+  margin-top: 10px;
+}
+.guide__howto ul li .list {
+  margin-top: 10px;
+}
+.guide__howto ul li .list ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.guide__howto ul li .list ul li {
+  margin: 16px 0 0 16px;
+  width: calc((100% - 80px) / 5);
+}
+/*--------------------------------------------------------------------
+  不正行為に対して厳正に対処しています！
+--------------------------------------------------------------------*/
+.guide__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.guide__flex__l {
+  width: fit-content;
+}
+.guide__flex__r {
+  width: 320px;
+}
+/*--------------------------------------------------------------------
+  不正行為とは
+--------------------------------------------------------------------*/
+.illegal__list {
+  margin-top: 20px;
+}
+.illegal__list ul {
+  display: flex;
+  justify-content: space-between;
+}
+.illegal__list ul li {
+  border: 2px solid #f39800;
+  border-radius: 6px;
+  text-align: center;
+  padding: 15px 10px 10px;
+  width: 24%;
+}
+.illegal__list ul li .ttl {
+  color: #f39800;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  min-height: 2.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.illegal__list ul li .txt {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  min-height: 2.8em;
+  margin-top: 10px;
+}
+.illegal__list ul li .txt__small {
+  font-size: 1.1rem;
+}
+.illegal__list ul li .image {
+  margin-top: 20px;
+}
+.illegal__textbox {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  padding: 25px 30px;
+  margin-top: 20px;
+}
+.illegal__info {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  padding: 25px 25px 25px 240px;
+  margin-top: 40px;
+  position: relative;
+}
+.illegal__info .image {
+  position: absolute;
+  left: 90px;
+  bottom: 0;
+  width: 118px;
+}
+
+.marker {
+  background: linear-gradient(transparent 50%, #fff82c 0%);
+}
+
+a.textlink {
+  color: #fb8c00;
+}

@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventMessages>
+	<EventMessage id="1">
+		<EventMessageType id="1"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="2">
+		<EventMessageType id="2"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="3">
+		<EventMessageType id="3"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="4">
+		<EventMessageType id="4"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="5">
+		<EventMessageType id="5"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="6">
+		<EventMessageType id="6"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="7">
+		<EventMessageType id="7"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="8">
+		<EventMessageType id="8"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="reason" value="レシート画像が不鮮明です。" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="9">
+		<EventMessageType id="9"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="10">
+		<EventMessageType id="10"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+		</Properties>
+	</EventMessage>
+
+	<EventMessage id="11">
+		<EventMessageType id="11"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="reason" value="納品書画像が不鮮明です。" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="12">
+		<EventMessageType id="12"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="13">
+		<EventMessageType id="13"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="reason" value="アンケート提出期限切れです。" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="14">
+		<EventMessageType id="14"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="15">
+		<EventMessageType id="15"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="16">
+		<EventMessageType id="16"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="17">
+		<EventMessageType id="17"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="18">
+		<EventMessageType id="18"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="reason" value="23" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="19">
+		<EventMessageType id="19"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="20">
+		<EventMessageType id="20"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+
+	<EventMessage id="21">
+		<EventMessageType id="21"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="reason" value="金額が間違っています。" />
+		</Properties>
+	</EventMessage>
+	<EventMessage id="22">
+		<EventMessageType id="22"></EventMessageType>
+		<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+		<Application id="3951268"
+			winState="落選"
+			enqueteSubmitState="提出待ち"
+			receiptSubmitState="提出待ち"
+			invoiceSubmitState="提出待ち"
+			agreed="0">
+			<Monitor id="257280"
+				title="謝礼： ご飲食代金の４０％ （上限 ５，０００円）"
+				deliverable="アンケート・レシート提出期限" enqueteSubmitExpires="7"
+				rate="50名"
+				receiptType="必要"
+				gray="0"
+				quickAppFlg="0"
+				win100="0">
+				<Notices>
+					<Notice>謝礼は現金に交換可能なRポイントでお支払いしています。</Notice>
+					<Notice>現金等に交換時に手数料がかかりますので予めご了承ください。</Notice>
+					<Notice>※応募前にレシート(その他証明書)画像作成方法をご確認ください。</Notice>
+					<Notice>※応募には会員登録（無料）が必要になります。</Notice>
+				</Notices>
+				<Shop id="8963"
+					viewMode="2"
+					categoryTypeId="1"
+					name="お茶漬けBAR ZUZU　新宿店"
+					nameKana="おちゃづけばー　ずず　しんじゅくてん"
+					catchPhrase="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。"
+					description="当店自慢のお茶漬けは美容と健康に良い玄米を使用しております。
+	お酒はバーテンダーが創る本格的なカクテル、他店ではお目にかかれない厳選された梅酒、焼酎、日本酒、ワインと豊富に取り揃えております。
+	お茶漬け以外にも女性に嬉しいヘルシーで健康的な創作料理を豊富にご用意しております。
+	インテリアショップIDEEプロデュースの店内コンセプトはモダンな茶室。新宿の喧噪を忘れさせる落ち着いた雰囲気です。"
+					averageBudget="3,000円（通常平均）　4,000円（宴会平均）"
+					releaseTimestamp="2009-08-07 15:20:56"
+					pcUrl="http://r.gnavi.co.jp/g314101/"
+					mobileUrl=""
+					logoImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20811.jpg"
+					topImageUrl="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.jpg"
+					topImageUrlGray="http://classic.fancrew.jp/api/3.0/image/shop/0000/8963/20812.gray.jpg"
+					numOfReviews="0"
+					postalCode="160-0021"
+					address="東京都新宿区歌舞伎町1-21-2 伊藤ビル3F・4F"
+					phoneNumber="03-5292-3703"
+					access="ＪＲ新宿駅　東口　徒歩5分　
+	地下鉄丸ノ内線新宿駅　徒歩3分　
+	西武新宿線西武新宿駅　徒歩1分"
+					businessHours="月～金　18:00～04:00(L.O.03:00)　土　17:00～04:00(L.O.03:00)　日・祝　17:00～24:00(L.O.23:00)　"
+					fixedHoliday="無休　"
+					latitude="35.69506"
+					longitude="139.701065"
+					>
+					<Category id="1" name="グルメ"></Category>
+					<Genre id="1" name="居酒屋"></Genre>
+					<Prefecture id="13" name="東京都"></Prefecture>
+					<Area id="59" name="新宿"></Area>
+				</Shop>
+			</Monitor>
+			<User id="433392" gender="女性" birthday="1976-03-03" age="35"></User>
+		</Application>
+
+		<Properties>
+			<Property key="test" value="23" />
+			<Property key="abc" value="def" />
+		</Properties>
+	</EventMessage>
+</EventMessages>

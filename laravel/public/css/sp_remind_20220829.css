@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+
+.remind__form input[type=text],
+.remind__form input[type=password] {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  padding: 15px;
+  width: 100%;
+}
+.remind__form table {
+  width: 100%;
+}
+.remind__form table tr {
+  border-bottom: 1px dotted #b9b9b9;
+}
+.remind__form table tr th,
+.remind__form table tr td {
+  display: block;
+  width: 100%;
+}
+.remind__form table tr th {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 20px 0 10px;
+  width: 100%;
+}
+.remind__form table tr th span {
+  vertical-align: middle;
+}
+.remind__form table tr th span.necessary::after {
+  content: "必須";
+  color: #ffffff;
+  background-color: #fb8c00;
+  font-size: 1.1rem;
+  margin: 0 0 0 5px;
+  padding: 2px 10px;
+  vertical-align: middle;
+}
+.remind__form table tr td {
+  font-size: 1.5rem;
+  padding: 0 0 20px;
+  width: 100%;
+}
+.remind__form__pw {
+  font-size: 1.5rem;
+}
+.remind__form__pw .bar {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 2px;
+  width: 100%;
+}
+.remind__form__pw .bar > div {
+  border-radius: 4px;
+  height: 24px;
+}
+.remind__form__pw .bar.veryweak > div {
+  background-color: #eb332f;
+  width: 20%;
+}
+.remind__form__pw .bar.weak > div {
+  background-color: #f39800;
+  width: 40%;
+}
+.remind__form__pw .bar.good > div {
+  background-color: #edd900;
+  width: 60%;
+}
+.remind__form__pw .bar.strong > div {
+  background-color: #29b3b1;
+  width: 80%;
+}
+.remind__form__pw .bar.verystrong > div {
+  background-color: #0c5fad;
+  width: 100%;
+}
+.remind__form__pw .txt {
+  font-size: 1.5rem;
+  margin-top: 5px;
+}
+.remind__form__pw .txt.veryweak::after, .remind__form__pw .txt.weak::after {
+  content: "弱";
+  color: #eb332f;
+  font-weight: 700;
+}
+.remind__form__pw .txt.good::after {
+  content: "中";
+  color: #eb332f;
+  font-weight: 700;
+}
+.remind__form__pw .txt.strong::after, .remind__form__pw .txt.verystrong::after {
+  content: "強";
+  color: #eb332f;
+  font-weight: 700;
+}
+.remind__form__btn {
+  margin: 40px auto 20px;
+}
+.remind__form__btn button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  transition: 0.2s ease-in-out;
+}
+.remind__form__btn button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.remind__center__box > .remind__center__box__main {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  padding: 10px 0px;  
+  text-align: center;
+  line-height: 1.2;
+}
+.remind__center__box > .remind__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+.remind__center__box > .remind__center__box__main > p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.remind__center__box__text {
+  margin-top: 20px;
+}
+.remind__center__box__text p{
+  font-size: 1.5rem;
+}
+.btn_y {margin: 40px auto 0;}
+.btn_y a {
+  display: table;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 3px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  min-width: 160px;
+  max-width: 250px;
+  transition: 0.2s ease-in-out;
+}
+.btn_y a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.remind__auth__btn {
+  display: table;
+  color: #ffffff;
+  background-color: #e44f6f;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  min-width: 160px;
+  max-width: 250px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  transition: 0.2s ease-in-out;
+}
+.remind__auth__btn:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.remind__center__box > .remind__center__box__main {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  padding: 10px 0px;  
+  text-align: center;
+  line-height: 1.2;
+}
+.remind__center__box > .remind__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+.remind__center__box > .remind__center__box__main > p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.remind__center__box__text {
+  margin-top: 20px;
+}
+.remind__center__box__text p{
+  font-size: 1.5rem;
+}
+a.textlink__arrow {
+  color: #fb8c00;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+a.textlink__arrow::before {
+  content: "▶︎";
+}
+.stint { color:#989898; font-size:12px;}

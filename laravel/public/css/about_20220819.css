@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+a.lnk_external:after {
+    font-family: icomoon;
+    vertical-align: top;
+    content: '\e936';
+    margin: 0 3px;
+}
+.users__box {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-top: 5px;
+    padding: 30px;
+}
+.terms #agreement {
+    line-height: 1.8;
+    height: 650px;
+    margin: 0 0 30px;
+    overflow-y: scroll;
+    padding: 0 10px;
+    width:100%;
+    border:0;
+    margin-top:10px;
+}

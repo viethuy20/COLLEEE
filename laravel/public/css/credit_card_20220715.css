@@ -1,0 +1,515 @@
+@charset "UTF-8";
+/*--------------------------------------------------------------------
+  main contents
+--------------------------------------------------------------------*/
+.contents__box:first-of-type {
+  border-top: 6px solid #f39800;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+/*--------------------------------------------------------------------
+  検索条件
+--------------------------------------------------------------------*/
+.credit_cards_list__search {
+  margin-top: 20px;
+}
+.credit_cards_list__search__checkbox > dl {
+  display: flex;
+}
+.credit_cards_list__search__checkbox > dl:nth-of-type(n+2) {
+  margin-top: 20px;
+}
+.credit_cards_list__search__checkbox > dl dt {
+  font-size: 1.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+  width: 105px;
+}
+.credit_cards_list__search__checkbox > dl dd {
+  font-size: 1.5rem;
+  width: 535px;
+}
+.credit_cards_list__search__checkbox > dl dd label {
+  display: inline-block;
+  margin-right: 1em;
+}
+.credit_cards_list__search__checkbox > dl dd label:last-of-type {
+  margin-right: 0;
+}
+.credit_cards_list__search__checkbox > dl dd input[type=checkbox] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: -0.25em 0.25em 0 0;
+  padding: 0;
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.credit_cards_list__search__checkbox > dl dd input[type=checkbox]:checked:before {
+  content: "✔";
+  color: #f39800;
+  font-size: 1.25em;
+  line-height: 0;
+}
+.credit_cards_list__search button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 40px auto 0;
+  padding: 0;
+  width: 212px;
+  transition: 0.2s ease-in-out;
+}
+.credit_cards_list__search button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+
+/*--------------------------------------------------------------------
+  list
+--------------------------------------------------------------------*/
+.credit_cards_list__order.active {
+  display: block;
+  transition: 0.2s ease-in-out;
+}
+.credit_cards_list__order__tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+}
+.credit_cards_list__order__tab li {
+  width: 32.2857%;
+}
+.credit_cards_list__order__tab li a {
+  display: block;
+  color: #f39800;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+  white-space: nowrap;
+  transition: 0.2s ease-in-out;
+}
+.credit_cards_list__order__tab li.active {
+  position: relative;
+}
+.credit_cards_list__order__tab li.active::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top: solid 10px #f39800;
+  border-bottom: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  margin: auto;
+}
+.credit_cards_list__order__tab li.active a {
+  color: #ffffff;
+  background-color: #f39800;
+}
+.credit_cards_list__order__list {
+  margin-top: 10px;
+}
+.credit_cards_list__order__list > li {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 5px;
+  padding: 25px 30px;
+}
+.credit_cards_list__order {
+  margin-top: 10px;
+}
+.credit_cards_list__order__list__ttl {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.credit_cards_list__order__list__incommon__ttl {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  background-color: #f6edd9;
+  border-radius: 6px;
+  text-align: center;
+  width: 200px;
+}
+.credit_cards_list__order__list__incommon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+.credit_cards_list__order__list__incommon dt,
+.credit_cards_list__order__list__incommon dd {
+  margin-top: 5px;
+  font-size: 1.3rem;
+}
+.credit_cards_list__order__list__incommon dt {
+  border-radius: 6px;
+  text-align: center;
+  justify-content: space-between;
+}
+.credit_cards_list__order__list__incommon dt::after {
+  content: ":";
+  margin-left: .5rem;
+}
+.credit_cards_list__order__list__incommon dd {
+  width: calc(100% - 138px);
+}
+.credit_cards_list__order__list__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.credit_cards_list__order__list__item__l {
+  width: 160px;
+}
+.credit_cards_list__order__list__item__r {
+  width: 480px;
+  padding-left: 30px;
+}
+.credit_cards_list__order__list__item__img {
+  width: 160px;
+}
+.credit_cards_list__order__list__item__img img {
+  width: 160px;
+}
+.credit_cards_list__order__list__item__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.credit_cards_list__order__list__item__btn a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.credit_cards_list__order__list__item__chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+.credit_cards_list__order__list__item__chart dt {
+  background-color: #f6edd9;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 128px;
+}
+.credit_cards_list__order__list__item__chart dt:nth-of-type(n+2) {
+  margin-top: 5px;
+}
+.credit_cards_list__order__list__item__chart dd {
+  font-size: 1.5rem;
+  width: calc(100% - 138px);
+}
+.credit_cards_list__order__list__item__chart dd:nth-of-type(n+2) {
+  margin-top: 5px;
+}
+.credit_cards_list__order__list__item__point {
+  color: #eb332f;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 20px;
+}
+.credit_cards_list__order__list__spec {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  width: 100%;
+}
+.credit_cards_list__order__list__spec > dl {
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+  border-right: 1px solid #b9b9b9;
+  background-color: #ffffff;
+  min-width: 14.2857142857%;
+}
+.credit_cards_list__order__list__spec > dl:first-child {
+  border-left: 1px solid #b9b9b9;
+}
+.credit_cards_list__order__list__spec > dl dt {
+  background-color: #f6edd9;
+  border-bottom: 1px solid #b9b9b9;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  padding: 5px 0;
+}
+.credit_cards_list__order__list__spec > dl dd {
+  font-size: 1.3rem;
+  padding: 5px;
+}
+.credit_cards_list__order__list__campaign__ttl {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  background-color: #f6edd9;
+  border-radius: 6px;
+  text-align: center;
+  width: 200px;
+}
+.credit_cards_list__order__list__recommend__ttl {
+  margin-top: 20px;
+  background-color: #f6edd9;
+  border-radius: 6px;
+  text-align: center;
+  width: 360px;
+  max-width: 100%;
+  font-size: 1.3rem;
+}
+.credit_cards_list__order__list__recommend__list {
+  display: block;
+}
+.credit_cards_list__order__list__recommend__list dt,
+.credit_cards_list__order__list__recommend__list dd {
+  padding: 5px 0 5px 5px;
+}
+.credit_cards_list__order__list__recommend__list dt {
+  width: 520px;
+  max-width: 100%;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.credit_cards_list__order__list__recommend__list dt a{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.credit_cards_list__order__list__recommend__list dd {
+  text-align: right;
+  border-bottom: 1px solid #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/*--------------------------------------------------------------------
+  メッセージエリア
+--------------------------------------------------------------------*/
+.credit_cards_list__order__message {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  margin-top: 5px;
+  padding: 25px 30px;
+}
+/*--------------------------------------------------------------------
+  スタッフのオススメ
+--------------------------------------------------------------------*/
+.credit_cards_list__staff {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.credit_cards_list__staff__img {
+  width: 160px;
+}
+.credit_cards_list__staff__img img {
+  width: 160px;
+}
+.credit_cards_list__staff__txt {
+  width: 320px;
+  padding: 0 0 0 20px;
+}
+.credit_cards_list__staff__txt__main {
+  color: #fb8c00;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.credit_cards_list__staff__txt__sub {
+  color: #666666;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: 10px;
+}
+.credit_cards_list__staff__txt__point {
+  color: #eb332f;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 15px;
+}
+.credit_cards_list__staff__btn {
+  width: 160px;
+}
+.credit_cards_list__staff__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  padding: 0;
+  width: 160px;
+  transition: 0.2s ease-in-out;
+}
+.credit_cards_list__staff__btn a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.ico_status_a, .ico_status_j, .ico_status_t, .ico_status_r { border-radius:50%; color:#fff; text-align:center; font-size:14px; padding:1px 4px; display:inline-block; width:24px; margin-right:5px; font-weight:bold; box-sizing:border-box;}
+.ico_status_a { background-color:#21409C; color: #fff;}
+.ico_status_j { background-color:#fff; color: #CC0000; border:2px solid #c00; padding:0 1px 0 0!Important; font-size:13px;}
+.ico_status_t { background-color:#FFF20E; color:#004098;}
+.ico_status_r { background-color:#BF0000;color: #fff;}
+
+.article__cat {
+    margin: 10px 0px;
+}
+
+.article__cat ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article__cat ul li {
+    margin: 10px 10px 0 0;
+    width: calc((100% - 20px) / 3);
+}
+.article__cat ul li:nth-child(3n) {
+    margin-right: 0;
+}
+.article__cat ul li a {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #f39800;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px 0 0 #dedede;
+    font-size: 1.6rem;
+    font-weight: 700;
+    height: 80px;
+    line-height: 1.3;
+    padding: 0 35px 0 20px;
+    width: 100%;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.article__cat ul li a::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 0;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: 1em;
+    bottom: 0;
+    margin: auto 0;
+}
+  /*--------------------------------------------------------------------
+  notes
+--------------------------------------------------------------------*/
+
+main :not(.program__tab__item__inner) > * > .notes {
+  color: #908d8d;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+main :not(.program__tab__item__inner) > * > .notes:not(:first-child) {
+  margin-top: 4px;
+}
+main :not(.program__tab__item__inner) > * > .notes > li {
+  position: relative;
+  padding-left: 1.2rem;
+}
+main :not(.program__tab__item__inner) > * > .notes > li::before {
+  content: "※";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main :not(.program__tab__item__inner) > * > .notes > li + * {
+  margin-top: 2px;
+}
+/*--------------------------------------------------------------------
+  foot-notes
+--------------------------------------------------------------------*/
+.foot-notes {
+  font-size: 11px;
+  color: #666666;
+}
+.foot-notes > li {
+  position: relative;
+  padding-left: 1rem;
+}
+.foot-notes > li::before {
+  content: "※";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.foot-notes__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+  margin-inline: auto;
+  padding: 16px;
+  color: #666666;
+  line-height: 1.6;
+  font-size: 1rem;
+  text-align: left;
+  border: solid 1px #dddddd;
+  border-radius: 8px;
+  background: #F8F8F8;
+}
+div:not(.contents) .foot-notes__wrap {
+  width: calc(100% - 32px);
+  min-width: 980px;
+}
+

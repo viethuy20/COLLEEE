@@ -1,0 +1,30 @@
+.feature__list, .feature__pickup {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.feature__list > li {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 3px 0 0 #dedede;
+    margin-top: 10px;
+    padding: 15px 20px 20px;
+    width: 49.2857%;
+    transition: 0.2s ease-in-out;
+}
+
+.feature__list > li:hover {
+    opacity: 0.8;
+    box-shadow: 0 1px 0 0 #dedede;
+    cursor: pointer;
+}
+.feature__list__ttl {
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.feature__list__txt {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}

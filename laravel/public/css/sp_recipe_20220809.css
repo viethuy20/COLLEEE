@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+.recipe__list ul {
+  margin-top: 5px;
+}
+.recipe__list ul li {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  padding: 20px;
+}
+.recipe__list ul li:nth-child(n+2) {
+  margin-top: 8px;
+}
+.recipe__list ul li .recipe__flex {
+  display: flex;
+  align-items: start;
+  width: 100%;
+  gap: 1.2rem;
+}
+.recipe__list ul li .recipe__flex__l {
+  width: 33.3333333334%;
+  max-width: 84px;
+}
+.recipe__list ul li .recipe__flex__r {
+  width: 66.6666666667%;
+  max-width: 198px;
+}
+.recipe__list ul li .recipe__thumb {
+  overflow: hidden;
+}
+.recipe__list ul li .recipe__ttl {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.recipe__list ul li .recipe__txt {
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+.recipe__delete a {
+  display: block;
+  color: #ffffff;
+  background-color: #979797;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 32px !important;
+  width: 50% !important;
+  margin: 10px auto 0 !important;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+.recipe__delete a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.recipe__delete a i img {
+  width: 25px !important;
+  height: 25px !important;
+  margin-top: -4px;
+}
+.recipe__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 48px;
+  width: 60%;
+  margin: 20px auto 0;
+  padding: 0;
+  transition: 0.2s ease-in-out;
+}
+.recipe__btn a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.recipe__btn a {
+    display: block;
+    color: #ffffff;
+    background-color: #f39800;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 2px 0 0 #dedede;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 48px;
+    width: 200px;
+    margin: 30px auto 0;
+    padding: 0;
+    transition: 0.2s ease-in-out;
+  }

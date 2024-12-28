@@ -1,0 +1,6 @@
+Subject: [Ì§İ‚­‚é] ${title}
+
+${user.name}‚³‚ñ
+Ÿu${shop.name}vÓÆÀ°
+„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
+${content}

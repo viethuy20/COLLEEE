@@ -1,0 +1,15 @@
+.schedule__box ul li:nth-child(n+2) {
+  margin-top: 4px;
+}
+.schedule__point {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+.schedule__point .heading {
+  align-self: center;
+  flex-grow: 1;
+  color: #333333;
+  font-size: 1.3rem;
+  text-align: left;
+}

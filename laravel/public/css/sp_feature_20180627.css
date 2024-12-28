@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_contents h1.ttl_feature {border-left:0; padding-left:0;}
+.main_contents h1.ttl_feature img { width:100%; height:auto;}
+
+.head_feature ul {margin-bottom:25px; font-size:0;}
+.head_feature li { width:48%; background-color:#d3f078; border-radius:6px;display:inline-block; margin-right:4%; margin-bottom:10px; background-image: url(../images/ico-r.svg); background-repeat:no-repeat; background-position:90% center; background-size:14px auto;}
+.head_feature li:nth-child(2n) { margin-right:0;}
+.head_feature li a { font-size:13px; font-weight:bold; padding:10px; }
+
+.btns_sns { margin-bottom:15px;}
+
+.pickup, #useful { /*margin-bottom:20px;*/}
+.pickup { margin-bottom:10px; background-color:#fefadd; border:1px solid #e8eaef; border-radius:8px;}
+.pickup h3 {position: relative;height: 34px;line-height: 34px;padding: 0 .5em;background-color: #066b74;left:-10px;margin-top:10px;color:#fff; margin-bottom:5px; width:50%;}
+.pickup h3::before, .pickup h3::after {content: '';position: absolute;}
+.pickup h3::before {top: 100%;left: 0;border-width: 0 10px 10px 0;border-style: solid;border-color: transparent;border-right-color: #333;}
+.pickup h3::after {top: 0;right: 0;z-index: 2;border-width: 17px 17px;border-style: solid;border-color: transparent;border-right-color: #fefadd;}
+.pickup h3 span { color:#ffdb37;}
+.pickup .heading { margin:10px 10px 5px 10px}
+.pickup .box_bnr { text-align:center; margin-bottom:5px; padding:0 10px;}
+.pickup .box_bnr img { width:100px; height:auto;}
+.pickup .acquisition { font-weight:bold;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; padding:0 10px;}
+.pickup .digitbox { text-align:center; padding:0 10px;}
+.pickup .digitbox span {font-size: 30px;font-weight: bold;color: #f45934;height: 65px;}
+.pickup .txt_description { border-top:1px solid #d3f078; padding:10px 10px 5px;}
+.pickup .btn_next {color: #fff;border-bottom: 5px solid #c73338; background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 67%;font-size: 14px;font-weight: bold;padding: 5px 0;margin: 5px auto 10px;}
+.txt_description a.extra { width:100%; color:#066b74; text-decoration:underline; margin:10px 0;}
+
+.features { padding-top:10px; border-top: 1px dotted #89909f;}
+.features .contentsbox_onethird { padding-bottom:10px; margin-bottom:10px;border-bottom: 1px dotted #89909f;}
+.features .contentsbox_onethird .heading {overflow: hidden;height: 50px;margin-bottom: 3px;font-weight: bold;}
+.features .contentsbox_onethird .imgbox {height: auto;width: 100px;max-height: 100px;overflow: hidden; display:inline-block; float:left; margin-bottom:5px;}
+.features .contentsbox_onethird .imgbox img {width: 100px;height: auto;}
+.features .contentsbox_onethird .acquisition {font-size: 14px;text-align: left;overflow: hidden; height:50px;width: calc(100% - 110px);float: right;}
+.features .contentsbox_onethird .digitbox {display: inline-block;font-size: 14px;font-weight: normal;margin-left: 5px;width: calc(100% - 110px);float: right; text-align:right;}
+.features .contentsbox_onethird .digitbox span {text-align: right;font-size: 24px;font-weight: bold;color: #f45934;}
+.features .btn_next {color: #fff;border-bottom: 5px solid #c73338;background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 62%;font-size: 14px;font-weight: bold;padding: 5px 0;margin: 5px auto 0;}
+.featuresbox .totop span {color:#f45934; }
+.featuresbox .totop a {text-decoration: none; display:inline;color:#066b74; }
+
+.featuresListbox ul { font-size:0; margin-bottom:20px;}
+.featuresListbox ul li:nth-child(even) { margin-right:0;}
+.adlist_featureList { background-color:#fefadd; border:1px solid #e8eaef; border-radius:8px; width:100%; box-sizing:border-box; font-size:14px; display:inline-block; margin:0 0 30px 0; padding:10px;}
+.adlist_featureList .heading { font-weight:bold; height:30px; overflow:hidden;}
+.adlist_featureList .btn_next {color: #fff;border-bottom: 5px solid #c73338; background-color: #f45934;border-radius: 6px;text-decoration: none;text-align: center;width: 71%;font-size: 14px;font-weight: bold;padding: 5px 0;margin: 5px auto 0;}
+
+.featureListBnr {text-align:center;margin:10px auto; width:56%;}
+.featureListBnr img { width:100%; height:auto;}
+.featureListDescription {margin-bottom:10px;}
+.featureList {background-color: #eff1f4;border: 1px solid #e2e2e2;border-radius: 6px;font-size: 32px;color: #f45934;font-weight: bold;padding: 10px;margin: 0 0 20px;}
+
+section.end p {font-size: 22px;font-weight: bold;color: #c73338;text-align: center;margin: 30px auto;}
+section.end {min-height:calc(100vh - 450px);}

@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------------
+  foot-notes
+--------------------------------------------------------------------*/
+.foot-notes > li {
+  position: relative;
+  padding-left: 1rem;
+}
+.foot-notes > li::before {
+  content: "※";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.foot-notes__wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px 8px 0;
+  padding: 12px;
+  color: #666666;
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: left;
+  border: solid 1px #dddddd;
+  border-radius: 8px;
+  background: #F8F8F8;
+}

@@ -1,0 +1,545 @@
+.contents__wrap {
+  margin-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.questions {
+  /*--------------------------------------------------------------------
+    title
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    content
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    questions
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    result
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    result
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    answer
+  --------------------------------------------------------------------*/
+  /*--------------------------------------------------------------------
+    recipe
+  --------------------------------------------------------------------*/
+}
+.questions__ttl {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fb8c00;
+}
+.questions__content {
+  margin-top: 3px;
+  padding: 20px 15px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.questions__que {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.questions__que__img {
+  width: 35px;
+}
+.questions__que__img img {
+  width: 100%;
+}
+.questions__que__txt {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 1em;
+}
+.questions__seeall {
+  color: #fb8c00;
+  font-size: 1.4rem;
+  margin-top: 15px;
+  text-align: right;
+}
+.questions__seeall a {
+  color: #fb8c00;
+  text-decoration: underline;
+}
+.questions__result__data {
+  color: #b9b9b9;
+  font-size: 1.3rem;
+}
+.questions__result__chart__inner {
+  margin-top: 20px;
+}
+.questions__result__chart__answer {
+  display: flex;
+  justify-content: space-between;
+}
+.questions__result__chart__answer dt, .questions__result__chart__answer dd {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.questions__result__chart__answer dd {
+  color: #fb8c00;
+}
+.questions__result__chart__bar {
+  background-color: #e5e5e5;
+  width: 100%;
+}
+.questions__result__chart__bar > div {
+  background-color: #f39800;
+  height: 20px;
+}
+.questions__form {
+  margin-top: 20px;
+}
+.questions__form__inner textarea {
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.4rem;
+  resize: vertical;
+}
+.questions__form__inner__r {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.questions__form__inner__r > dl {
+  width: 49%;
+}
+.questions__form__inner__r > dl dt {
+  font-size: 1.5rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.questions__form__inner__r > dl dd {
+  font-size: 1.5rem;
+}
+.questions__form__select {
+  position: relative;
+}
+.questions__form__select select {
+  width: 100%;
+  color: #242424;
+  background: #f9f9f9;
+  border: 1px solid #b9b9b9;
+  border-radius: 3px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px 10px;
+  appearance: none;
+}
+.questions__form__select:after {
+  content: "";
+  border: 0;
+  border-right: 1px solid #fb8c00;
+  border-bottom: 1px solid #fb8c00;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 5px);
+  width: 5px;
+  height: 5px;
+}
+.questions__form__lead {
+  color: #fb8c00;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.questions__form__caution {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.questions__form__caution img {
+  width: 18px;
+  margin-right: 0.5em;
+}
+.questions__form button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 20px auto 0;
+  padding: 0;
+  width: 212px;
+  transition: 0.2s ease-in-out;
+}
+.questions__answer {
+  margin-top: 3px;
+  padding: 20px 10px;
+  background: #ffffff;
+  border-radius: 3px;
+}
+.questions__answer__txt {
+  color: #fb8c00;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.questions__answer__profile {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1em;
+}
+.questions__answer__date {
+  color: #908d8d;
+}
+.questions__answer__more {
+  display: block;
+  margin: 20px 0 10px;
+  position: relative;
+  color: #fb8c00;
+  background-color: #ffffff;
+  border: 1px solid #fb8c00;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+.questions__answer__more::before, .questions__answer__more::after {
+  content: "";
+  border: 0;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+.questions__answer__more::before {
+  border-bottom: 2px solid #fb8c00;
+  right: 13px;
+  top: 7px;
+}
+.questions__answer__more::after {
+  border-right: 2px solid #fb8c00;
+  right: 20px;
+  top: 16px;
+}
+.questions__answer__trigger {
+  display: none;
+}
+.questions__answer__trigger:checked ~ li {
+  display: block;
+}
+.questions__answer__trigger:checked ~ .questions__answer__more {
+  display: none;
+}
+.questions__recipe__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow-x: unset;
+  overflow-y: unset;
+}
+.questions__recipe__list li {
+  margin: 10px 0 0;
+  width: 49.2857%;
+  min-width: 49.2857%;
+}
+.questions__recipe__list li a {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 0 #dedede;
+  width: 100%;
+  padding: 25px 15px 15px;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+.questions__recipe__thumb {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+.questions__recipe__ttl {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.questions__recipe__date, .questions__recipe__clip {
+  color: #b9b9b9;
+  font-size: 1.3rem;
+  text-align: right;
+}
+.questions__recipe__clip span {
+  color: #eb332f;
+}
+.questions__btn a {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 10px auto 0;
+  transition: 0.2s ease-in-out;
+  font-size: 1.3rem;
+  padding: 10px 0;
+  margin-top: 20px;
+  width: 85%;
+}
+/*# sourceMappingURL=questions.css.map */
+.users__center__box > .users__center__box__main > h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fb8c00;
+}
+
+/*--------------------------------------------------------------------
+  デイリーアンケートの結果
+--------------------------------------------------------------------*/
+.result__list {
+  margin-top: 10px;
+}
+.result__list ul li {
+  border-top: 1px solid #dedede;
+}
+.result__list ul li:last-child {
+  border-bottom: 1px solid #dedede;
+}
+.result__list ul li a {
+  display: block;
+  padding: 10px 0;
+  transition: 0.2s ease-in-out;
+}
+.result__list ul li a .data {
+  color: #b9b9b9;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.result__list ul li a .ttl {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.result__list ul li a .responses {
+  font-size: 1.2rem;
+  text-align: left;
+}
+.result__list ul li a:hover {
+  background-color: rgba(246, 237, 217, 0.4);
+}
+
+/*--------------------------------------------------------------------
+  人気のお得レシピ
+--------------------------------------------------------------------*/
+.recipe__list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  overflow-x: unset;
+  overflow-y: unset;
+}
+.recipe__list ul li {
+  margin: 8px 0 0;
+  width: 49%;
+  min-width: 49%;
+}
+.recipe__list ul li a {
+  display: block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dedede;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+.recipe__list ul li a:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.recipe__thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 6px 6px 0 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.recipe__thumb::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+.recipe__content {
+  padding: 10px;
+}
+.recipe__ttl {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 10px;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3;
+}
+.recipe__date, .recipe__clip {
+  color: #666666;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-align: right;
+}
+.recipe__clip span {
+  color: #eb332f;
+}
+/*--------------------------------------------------------------------
+  table
+--------------------------------------------------------------------*/
+.wrap-table {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  border-bottom: 1px dotted #fb8c00;
+  height: auto;
+}
+.date {
+  color: #b9b9b9;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.theme {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.responses {
+  font-size: 1.4rem;
+  text-align: left;
+}
+/*--------------------------------------------------------------------
+  question form
+--------------------------------------------------------------------*/
+.questions__form {
+  margin-top: 20px;
+}
+.questions__form__label label {
+  display: block;
+  background: #ffebbe;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #dec896;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-top: 10px;
+  padding: 18px 20px 15px;
+  width: 100%;
+}
+.questions__form__label label input[type=radio] {
+  outline: none;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  display: inline-block;
+  background: #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin: -0.25em 0.75em 0 0;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+.questions__form__label label input[type=radio]:checked {
+  background: #f39800;
+}
+.questions__form__txt {
+  color: #f39800;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+.questions__form__txt::before {
+  content: "＼";
+  margin-right: 0.5em;
+}
+.questions__form__txt::after {
+  content: "／";
+  margin-left: 0.5em;
+}
+.questions__form__txt span {
+  color: #eb332f;
+}
+.questions__form button {
+  display: block;
+  color: #ffffff;
+  background-color: #f39800;
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 5px auto 0;
+  padding: 0;
+  width: 90%;
+  transition: 0.2s ease-in-out;
+}
+.questions__form button:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 0 0 #dedede;
+}
+.questions__form .done {
+  display: block;
+  color: #ffffff;
+  background-color: #ccc;
+  border: none;
+  border-radius: 36px;
+  box-shadow: 0 2px 0 0 #dedede;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 5px auto 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 200px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+}
+a.textlink__arrow {
+  color: #fb8c00;
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+a.textlink__arrow::before {
+  content: "▶︎";
+}
+
+/*--------------------------------------------------------------------
+  google ad
+--------------------------------------------------------------------*/
+div.google_ad_header {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+div.google_ad_kijisita {
+  margin: 20px 0 0 0;
+  text-align: center;
+}

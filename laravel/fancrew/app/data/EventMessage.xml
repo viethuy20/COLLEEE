@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EventMessage>
+	<EventMessageType id="1"></EventMessageType>
+	<MailDeliverType id="0" name="即送信"></MailDeliverType>
+
+	<Properties>
+	</Properties>
+</EventMessage>
