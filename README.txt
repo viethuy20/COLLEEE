@@ -2,7 +2,7 @@ Install
 Clone the git repository on your computer $ git clone https://github.com/viethuy20/COLLEEE.git
 
 Cd to project
-$ cd sns_organic
+$ cd COLLEEE
 
 Copy the .env.example file to .env
 
